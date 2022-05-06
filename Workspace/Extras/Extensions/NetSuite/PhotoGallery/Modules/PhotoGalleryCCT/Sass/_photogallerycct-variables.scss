@@ -1,0 +1,122 @@
+// Heading Text variables group
+$sc-photo-gallery-heading-font-family: $sc-font-family; /* editable({"type": "string", "label": "Font Family"}) */
+$sc-photo-gallery-heading-mobile-font-size: $sc-h2-font-size; /* editable({"type": "string", "label": "Mobile Size"}) */
+$sc-photo-gallery-heading-desktop-font-size: $sc-h2-desktop-font-size; /* editable({"type": "string", "label": "Desktop Size"}) */
+$sc-photo-gallery-heading-line-height: $sc-h2-line-height; /* editable({"type": "string", "label": "Line Height"}) */
+$sc-photo-gallery-heading-light-text-color: $sc-color-copy-light; /* editable({"type": "color", "label": "Light Text Color"}) */
+$sc-photo-gallery-heading-light-text-shadow-color: $sc-color-copy-light; /* editable({"type": "color", "label": "Light Text Shadow"}) */
+$sc-photo-gallery-heading-dark-text-color: $sc-color-copy-dark; /* editable({"type": "color", "label": "Dark Text Color"}) */
+$sc-photo-gallery-heading-dark-text-shadow-color: $sc-color-copy-dark; /* editable({"type": "color", "label": "Dark Text Shadow"}) */
+$sc-photo-gallery-heading-text-shadow-blur-radius: 15px;  /* editable({"type": "string", "label": "Shadow Blur"}) */
+
+// Description Text variables group
+$sc-photo-gallery-description-font-family: $sc-font-family; /* editable({"type": "string", "label": "Font Family"}) */
+$sc-photo-gallery-description-mobile-font-size: $sc-body-font-size; /* editable({"type": "string", "label": "Mobile Size"}) */
+$sc-photo-gallery-description-desktop-font-size: $sc-body-font-size-desktop; /* editable({"type": "string", "label": "Desktop Size"}) */
+$sc-photo-gallery-description-line-height: $sc-body-line-height; /* editable({"type": "string", "label": "Line Height"}) */
+$sc-photo-gallery-description-light-text-color: $sc-color-copy-light; /* editable({"type": "color", "label": "Light Text Color"}) */
+$sc-photo-gallery-description-light-text-shadow-color: $sc-color-copy-light; /* editable({"type": "color", "label": "Light Text Shadow"}) */
+$sc-photo-gallery-description-dark-text-color: $sc-color-copy-dark; /* editable({"type": "color", "label": "Dark Text Color"}) */
+$sc-photo-gallery-description-dark-text-shadow-color: $sc-color-copy-dark; /* editable({"type": "color", "label": "Dark Text Shadow"}) */
+$sc-photo-gallery-description-text-shadow-blur-radius: 15px;  /* editable({"type": "string", "label": "Shadow Blur"}) */
+
+// Gallery variables group
+$sc-photo-gallery-light-overlay-color: #FFFFFF; /* editable({"type": "color", "label": "Light Overlay"}) */
+$sc-photo-gallery-light-overlay-opacity: 0.7; /* editable({"type": "string", "label": "Light Overlay Opacity"}) */
+$sc-photo-gallery-dark-overlay-color: #000000; /* editable({"type": "color", "label": "Dark Overlay"}) */
+$sc-photo-gallery-dark-overlay-opacity: 0.7; /* editable({"type": "string", "label": "Dark Overlay Opacity"}) */
+$sc-photo-gallery-animation-shadow-color: $sc-neutral-shade; /* editable({"type": "color", "label": "Animation Shadow"}) */
+$sc-photo-gallery-background: none; /* editable({"type": "color", "label": "Background"}) */
+$sc-photo-gallery-small-height: 450px; /* editable({"type": "string", "label": "Height - Small"}) */
+$sc-photo-gallery-medium-height: 600px; /* editable({"type": "string", "label": "Height - Medium"}) */
+$sc-photo-gallery-large-height: 750px; /* editable({"type": "string", "label": "Height - Large"}) */
+$sc-photo-gallery-container-margin-top: 0; /* editable({"type": "string", "label": "Gallery Margin - Top"}) */
+$sc-photo-gallery-container-margin-bottom: $sc-margin-lv4; /* editable({"type": "string", "label": "Gallery Margin - Bottom"}) */
+$sc-photo-gallery-column-padding-top: 0; /* editable({"type": "string", "label": "Container Padding - Top"}) */
+$sc-photo-gallery-column-padding-right: $sc-padding-lv1; /* editable({"type": "string", "label": "Container Padding - Right"}) */
+$sc-photo-gallery-column-padding-bottom: 0; /* editable({"type": "string", "label": "Container Padding - Bottom"}) */
+$sc-photo-gallery-column-padding-left: $sc-padding-lv1; /* editable({"type": "string", "label": "Container Padding - Left"}) */
+
+$sc-photo-gallery-row-margin-bottom: $sc-photo-gallery-column-padding-right + $sc-photo-gallery-column-padding-left;
+
+// Images's Animations variables
+$sc-photo-gallery-image-scale-up-duration: 400ms;
+$sc-photo-gallery-image-scale-down-duration: 400ms;
+$sc-photo-gallery-image-drop-shadow-center-duration: 400ms;
+$sc-photo-gallery-image-drop-shadow-top-duration: 400ms;
+$sc-photo-gallery-image-drop-shadow-bottom-duration: 400ms;
+
+/*
+group({
+	"id": "sc-photo-gallery",
+	"label": "SC Photo Gallery",
+	"description": "",
+	"children": [
+		"sc-photo-gallery-cct-heading-text",
+		"sc-photo-gallery-cct-description-text",
+		"sc-photo-gallery-cct-gallery"
+	]
+})
+*/
+
+/*
+group({
+	"id": "sc-photo-gallery-cct-heading-text",
+	"label": "Heading Text",
+	"description": "",
+	"children": [
+    "$sc-photo-gallery-heading-font-family",
+    "$sc-photo-gallery-heading-mobile-font-size",
+    "$sc-photo-gallery-heading-desktop-font-size",
+    "$sc-photo-gallery-heading-line-height",
+    "$sc-photo-gallery-heading-light-text-color",
+    "$sc-photo-gallery-heading-light-text-shadow-color",
+    "$sc-photo-gallery-heading-dark-text-color",
+    "$sc-photo-gallery-heading-dark-text-shadow-color",
+    "$sc-photo-gallery-heading-text-shadow-blur-radius"
+	]
+})
+*/
+
+/*
+group({
+	"id": "sc-photo-gallery-cct-description-text",
+	"label": "Description Text",
+	"description": "",
+	"children": [
+		"$sc-photo-gallery-description-font-family",
+    "$sc-photo-gallery-description-mobile-font-size",
+    "$sc-photo-gallery-description-desktop-font-size",
+    "$sc-photo-gallery-description-line-height",
+    "$sc-photo-gallery-description-light-text-color",
+    "$sc-photo-gallery-description-light-text-shadow-color",
+    "$sc-photo-gallery-description-dark-text-color",
+    "$sc-photo-gallery-description-dark-text-shadow-color",
+    "$sc-photo-gallery-description-text-shadow-blur-radius"
+	]
+})
+*/
+
+/*
+group({
+	"id": "sc-photo-gallery-cct-gallery",
+	"label": "Gallery",
+	"description": "",
+	"children": [
+		"$sc-photo-gallery-light-overlay-color",
+    "$sc-photo-gallery-light-overlay-opacity",
+    "$sc-photo-gallery-dark-overlay-color",
+    "$sc-photo-gallery-dark-overlay-opacity",
+    "$sc-photo-gallery-background",
+    "$sc-photo-gallery-small-height",
+    "$sc-photo-gallery-medium-height",
+    "$sc-photo-gallery-large-height",
+    "$sc-photo-gallery-container-margin-top",
+    "$sc-photo-gallery-container-margin-bottom",
+    "$sc-photo-gallery-column-padding-top",
+    "$sc-photo-gallery-column-padding-right",
+    "$sc-photo-gallery-column-padding-bottom",
+    "$sc-photo-gallery-column-padding-left"
+	]
+})
+*/

@@ -1,0 +1,141 @@
+{
+	"name": "PhotoGallery",
+	"fantasyName": "Photo Gallery",
+	"vendor": "NetSuite",
+	"version": "1.1.2",
+	"type": "extension",
+	"target": "SCA,SCS",
+	"description": "The SuiteCommerce Photo Gallery extension lets you add a gallery of images to your website using Site Management Tools.",
+	"cct": [
+		{
+			"icon": "img/cct_netsuite_photogallerycct_icon.svg",
+			"settings_record": "customrecord_ns_sc_ext_photogallery",
+			"registercct_id": "cct_netsuite_photogallerycct",
+			"label": "Photo Gallery",
+			"description": "Add a gallery of images to your website"
+		}
+	],
+	"skins": [],
+	"assets": {
+		"img": {
+			"files": [
+				"img/cct_netsuite_photogallerycct_icon.svg"
+			]
+		},
+		"fonts": {
+			"files": []
+		},
+		"services": {
+			"files": []
+		}
+	},
+	"sass": {
+		"entry_points": {
+			"shopping": "Modules/Main/Sass/_photogallery-main.scss",
+			"myaccount": "Modules/Main/Sass/_photogallery-main.scss",
+			"checkout": "Modules/Main/Sass/_photogallery-main.scss"
+		},
+		"files": [
+			"Modules/PhotoGalleryCCT/Sass/_photogallerycct.scss",
+			"Modules/BxSlider/Sass/jquery.bxslider.scss",
+			"Modules/Main/Sass/_photogallery-main.scss",
+			"Modules/PhotoGalleryCCT/Sass/_photogallerycct-variables.scss",
+			"Modules/PhotoGalleryCCT/Sass/_photogallerycct-image-animations.scss"
+		]
+	},
+	"templates": {
+		"application": {
+			"shopping": {
+				"files": [
+					"Modules/PhotoGalleryCCT/Templates/photogallery_gallery.tpl",
+					"Modules/PhotoGalleryCCT/Templates/photogallery.tpl"
+				]
+			},
+			"myaccount": {
+				"files": [
+					"Modules/PhotoGalleryCCT/Templates/photogallery_gallery.tpl",
+					"Modules/PhotoGalleryCCT/Templates/photogallery.tpl"
+				]
+			},
+			"checkout": {
+				"files": [
+					"Modules/PhotoGalleryCCT/Templates/photogallery_gallery.tpl",
+					"Modules/PhotoGalleryCCT/Templates/photogallery.tpl"
+				]
+			}
+		}
+	},
+	"javascript": {
+		"entry_points": {
+			"shopping": "Modules/Main/JavaScript/SuiteCommerce.PhotoGallery.Main.js",
+			"myaccount": "Modules/Main/JavaScript/SuiteCommerce.PhotoGallery.Main.js",
+			"checkout": "Modules/Main/JavaScript/SuiteCommerce.PhotoGallery.Main.js"
+		},
+		"application": {
+			"shopping": {
+				"files": [
+					"Modules/PhotoGalleryCCT/JavaScript/PhotoGallery.Gallery.Model.js",
+					"Modules/PhotoGalleryCCT/JavaScript/PhotoGallery.Gallery.View.js",
+					"Modules/PhotoGalleryCCT/JavaScript/PhotoGallery.Photo.Collection.js",
+					"Modules/PhotoGalleryCCT/JavaScript/PhotoGallery.Photo.Model.js",
+					"Modules/PhotoGalleryCCT/JavaScript/SuiteCommerce.PhotoGallery.js",
+					"Modules/Main/JavaScript/SuiteCommerce.PhotoGallery.Main.js",
+					"Modules/PhotoGalleryCCT/JavaScript/PhotoGallery.CCT.BaseView.js",
+					"Modules/PhotoGalleryCCT/JavaScript/PhotoGallery.CCT.Settings.js",
+					"Modules/BxSlider/JavaScript/BxSlider.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.Log.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.Logger.js",
+					"Modules/Common/JavaScript/Instrumentation.Helper.js",
+					"Modules/Common/JavaScript/Utils.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.FallbackLogger.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.MockAppender.js"
+				]
+			},
+			"myaccount": {
+				"files": [
+					"Modules/PhotoGalleryCCT/JavaScript/PhotoGallery.Gallery.Model.js",
+					"Modules/PhotoGalleryCCT/JavaScript/PhotoGallery.Gallery.View.js",
+					"Modules/PhotoGalleryCCT/JavaScript/PhotoGallery.Photo.Collection.js",
+					"Modules/PhotoGalleryCCT/JavaScript/PhotoGallery.Photo.Model.js",
+					"Modules/PhotoGalleryCCT/JavaScript/SuiteCommerce.PhotoGallery.js",
+					"Modules/Main/JavaScript/SuiteCommerce.PhotoGallery.Main.js",
+					"Modules/PhotoGalleryCCT/JavaScript/PhotoGallery.CCT.BaseView.js",
+					"Modules/PhotoGalleryCCT/JavaScript/PhotoGallery.CCT.Settings.js",
+					"Modules/BxSlider/JavaScript/BxSlider.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.Log.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.Logger.js",
+					"Modules/Common/JavaScript/Instrumentation.Helper.js",
+					"Modules/Common/JavaScript/Utils.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.FallbackLogger.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.MockAppender.js"
+				]
+			},
+			"checkout": {
+				"files": [
+					"Modules/PhotoGalleryCCT/JavaScript/PhotoGallery.Gallery.Model.js",
+					"Modules/PhotoGalleryCCT/JavaScript/PhotoGallery.Gallery.View.js",
+					"Modules/PhotoGalleryCCT/JavaScript/PhotoGallery.Photo.Collection.js",
+					"Modules/PhotoGalleryCCT/JavaScript/PhotoGallery.Photo.Model.js",
+					"Modules/PhotoGalleryCCT/JavaScript/SuiteCommerce.PhotoGallery.js",
+					"Modules/Main/JavaScript/SuiteCommerce.PhotoGallery.Main.js",
+					"Modules/PhotoGalleryCCT/JavaScript/PhotoGallery.CCT.BaseView.js",
+					"Modules/PhotoGalleryCCT/JavaScript/PhotoGallery.CCT.Settings.js",
+					"Modules/BxSlider/JavaScript/BxSlider.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.Log.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.Logger.js",
+					"Modules/Common/JavaScript/Instrumentation.Helper.js",
+					"Modules/Common/JavaScript/Utils.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.FallbackLogger.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.MockAppender.js"
+				]
+			}
+		}
+	},
+	"local_folder": "Workspace\\PhotoGallery",
+	"path": "SuiteScripts/extensions/NetSuite/PhotoGallery@1.1.2",
+	"activation_id": "3",
+	"extension_id": "1201"
+}

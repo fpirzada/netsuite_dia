@@ -1,0 +1,114 @@
+{
+	"name": "ImageTextOverlay",
+	"fantasyName": "Image Text Overlay",
+	"vendor": "NetSuite",
+	"version": "1.0.2",
+	"type": "extension",
+	"target": "SCA,SCS",
+	"description": "The SuiteCommerce Image Text Overlay extension lets you add an image with text overlay to your website using Site Management Tools.",
+	"cct": [
+		{
+			"icon": "img/cct_netsuite_imagetextoverlaycct_icon.svg",
+			"settings_record": "customrecord_ns_sc_ext_img_txt_overlay",
+			"registercct_id": "cct_netsuite_imagetextoverlaycct",
+			"label": "Image Text Overlay",
+			"description": "Add a large image with text overlay and button to your website."
+		}
+	],
+	"skins": [],
+	"assets": {
+		"img": {
+			"files": [
+				"img/cct_netsuite_imagetextoverlaycct_icon.svg"
+			]
+		},
+		"fonts": {
+			"files": []
+		},
+		"services": {
+			"files": []
+		}
+	},
+	"sass": {
+		"entry_points": {
+			"shopping": "Modules/ImageTextOverlayCCT/Sass/_imagetextoverlay-imagetextoverlaycct.scss",
+			"myaccount": "Modules/ImageTextOverlayCCT/Sass/_imagetextoverlay-imagetextoverlaycct.scss",
+			"checkout": "Modules/ImageTextOverlayCCT/Sass/_imagetextoverlay-imagetextoverlaycct.scss"
+		},
+		"files": [
+			"Modules/ImageTextOverlayCCT/Sass/_imagetextoverlay-imagetextoverlaycct.scss",
+			"Modules/ImageTextOverlayCCT/Sass/_imagetextoverlaycct.scss"
+		]
+	},
+	"templates": {
+		"application": {
+			"shopping": {
+				"files": [
+					"Modules/ImageTextOverlayCCT/Templates/netsuite_imagetextoverlay_imagetextoverlaycct.tpl"
+				]
+			},
+			"myaccount": {
+				"files": [
+					"Modules/ImageTextOverlayCCT/Templates/netsuite_imagetextoverlay_imagetextoverlaycct.tpl"
+				]
+			},
+			"checkout": {
+				"files": [
+					"Modules/ImageTextOverlayCCT/Templates/netsuite_imagetextoverlay_imagetextoverlaycct.tpl"
+				]
+			}
+		}
+	},
+	"javascript": {
+		"entry_points": {
+			"shopping": "Modules/ImageTextOverlayModule/JavaScript/NetSuite.ImageTextOverlay.ImageTextOverlayModule.js",
+			"myaccount": "Modules/ImageTextOverlayModule/JavaScript/NetSuite.ImageTextOverlay.ImageTextOverlayModule.js",
+			"checkout": "Modules/ImageTextOverlayModule/JavaScript/NetSuite.ImageTextOverlay.ImageTextOverlayModule.js"
+		},
+		"application": {
+			"shopping": {
+				"files": [
+					"Modules/ImageTextOverlayModule/JavaScript/NetSuite.ImageTextOverlay.ImageTextOverlayModule.js",
+					"Modules/ImageTextOverlayCCT/JavaScript/NetSuite.ImageTextOverlay.ImageTextOverlayCCT.js",
+					"Modules/ImageTextOverlayCCT/JavaScript/ImageTextOverlayCCT.View.js",
+					"Modules/Common/JavaScript/Instrumentation.Helper.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.FallbackLogger.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.Log.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.Logger.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.MockAppender.js"
+				]
+			},
+			"myaccount": {
+				"files": [
+					"Modules/ImageTextOverlayModule/JavaScript/NetSuite.ImageTextOverlay.ImageTextOverlayModule.js",
+					"Modules/ImageTextOverlayCCT/JavaScript/NetSuite.ImageTextOverlay.ImageTextOverlayCCT.js",
+					"Modules/ImageTextOverlayCCT/JavaScript/ImageTextOverlayCCT.View.js",
+					"Modules/Common/JavaScript/Instrumentation.Helper.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.FallbackLogger.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.Log.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.Logger.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.MockAppender.js"
+				]
+			},
+			"checkout": {
+				"files": [
+					"Modules/ImageTextOverlayModule/JavaScript/NetSuite.ImageTextOverlay.ImageTextOverlayModule.js",
+					"Modules/ImageTextOverlayCCT/JavaScript/NetSuite.ImageTextOverlay.ImageTextOverlayCCT.js",
+					"Modules/ImageTextOverlayCCT/JavaScript/ImageTextOverlayCCT.View.js",
+					"Modules/Common/JavaScript/Instrumentation.Helper.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.FallbackLogger.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.Log.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.Logger.js",
+					"Modules/Instrumentation/JavaScript/Instrumentation.MockAppender.js"
+				]
+			}
+		}
+	},
+	"local_folder": "Workspace\\ImageTextOverlay",
+	"path": "SuiteScripts/extensions/NetSuite/ImageTextOverlay@1.0.2",
+	"activation_id": "3",
+	"extension_id": "1001"
+}

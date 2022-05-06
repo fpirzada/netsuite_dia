@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="21px" viewBox="0 0 23 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-1395.000000, -1343.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-14-Copy-10" transform="translate(1379.000000, 1336.000000)">
+                <g id="Group-18">
+                    <g id="Group-22" transform="translate(16.000000, 7.000000)">
+                        <path d="M2.00006837,19 L7.98887227,13.0042587 L9.43631154,14.33867 L15.3112251,8.01953125 L20.9976353,14.4190518 L20.9912247,2 L2,2 L2,19 Z M1,0 L22,0 C22.5522847,-1.01453063e-16 23,0.44771525 23,1 L23,20 C23,20.5522847 22.5522847,21 22,21 L1,21 C0.44771525,21 6.76353751e-17,20.5522847 0,20 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z M4,4 L18,4 L18,6 L4,6 L4,4 Z M4,8 L12,8 L9.72326824,10 L4,10 L4,8 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

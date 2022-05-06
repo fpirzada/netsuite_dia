@@ -1,0 +1,9 @@
+define('suitecommerce_stock_notifications_header_account_link.tpl', ['Handlebars','Handlebars.CompilerNameLookup'], function (Handlebars, compilerNameLookup){ var t = {"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3=container.escapeExpression;
+
+  return "<li>\n  <a id=\"stock-notifications-subscriptions\"\n     class=\"header-menu-myaccount-anchor-level3\"\n     href=\"#\"\n     data-touchpoint=\"customercenter\"\n     data-hashtag=\"#"
+    + alias3(((helper = (helper = compilerNameLookup(helpers,"linkFragment") || (depth0 != null ? compilerNameLookup(depth0,"linkFragment") : depth0)) != null ? helper : alias2),(typeof helper === "function" ? helper.call(alias1,{"name":"linkFragment","hash":{},"data":data,"loc":{"start":{"line":6,"column":20},"end":{"line":6,"column":36}}}) : helper)))
+    + "\"\n     name=\"stocksubscriptions\"\n  >\n    "
+    + alias3((compilerNameLookup(helpers,"translate")||(depth0 && compilerNameLookup(depth0,"translate"))||alias2).call(alias1,(depth0 != null ? compilerNameLookup(depth0,"linkText") : depth0),{"name":"translate","hash":{},"data":data,"loc":{"start":{"line":9,"column":4},"end":{"line":9,"column":26}}}))
+    + "\n  </a>\n</li>\n";
+},"useData":true}; var main = t.main; t.main = function(){ arguments[1] = arguments[1] || {}; var ctx = arguments[1]; ctx._extension_path = 'http://localhost:7777/tmp/extensions/SuiteCommerce/StockNotifications/1.1.6/'; ctx._theme_path = 'http://localhost:7777/tmp/extensions/SC/Bridge/3.0.3/'; return main.apply(this, arguments); }; var template = Handlebars.template(t); template.Name = 'suitecommerce_stock_notifications_header_account_link'; return template;});

@@ -1,0 +1,88 @@
+@mixin image-scale-up-animation {
+  &.image-scale-up {
+    .image {
+      -webkit-transition: -webkit-transform $sc-photo-gallery-image-scale-up-duration ease-in-out;
+      transition: -webkit-transform $sc-photo-gallery-image-scale-up-duration ease-in-out;
+      -o-transition: transform $sc-photo-gallery-image-scale-up-duration ease-in-out;
+      transition: transform $sc-photo-gallery-image-scale-up-duration ease-in-out;
+    }
+
+    &:hover {
+      .image {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+@mixin image-scale-down-animation {
+  &.image-scale-down {
+    .image {
+      -webkit-transition: -webkit-transform $sc-photo-gallery-image-scale-up-duration ease-in-out;
+      transition: -webkit-transform $sc-photo-gallery-image-scale-up-duration ease-in-out;
+      -o-transition: transform $sc-photo-gallery-image-scale-up-duration ease-in-out;
+      transition: transform $sc-photo-gallery-image-scale-up-duration ease-in-out;
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+
+    &:hover {
+      .image {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+      }
+    }
+  }
+}
+
+@mixin image-drop-shadow-center-animation {
+  &.image-drop-shadow-center {
+    -webkit-box-shadow: 0 0 0 0 $sc-photo-gallery-animation-shadow-color;
+    box-shadow: 0 0 0 0 $sc-photo-gallery-animation-shadow-color;
+    -webkit-transition: -webkit-box-shadow $sc-photo-gallery-image-drop-shadow-center-duration ease-in-out;
+    transition: -webkit-box-shadow $sc-photo-gallery-image-drop-shadow-center-duration ease-in-out;
+    -o-transition: box-shadow $sc-photo-gallery-image-drop-shadow-center-duration ease-in-out;
+    transition: box-shadow $sc-photo-gallery-image-drop-shadow-center-duration ease-in-out;
+
+    &:hover {
+      -webkit-box-shadow: 0 0 20px 0 $sc-photo-gallery-animation-shadow-color;
+      box-shadow: 0 0 20px 0 $sc-photo-gallery-animation-shadow-color;
+    }
+  }
+}
+
+@mixin image-drop-shadow-top-animation {
+  &.image-drop-shadow-top {
+    -webkit-box-shadow: 0 0 0 0 $sc-photo-gallery-animation-shadow-color;
+    box-shadow: 0 0 0 0 $sc-photo-gallery-animation-shadow-color;
+    -webkit-transition: -webkit-box-shadow $sc-photo-gallery-image-drop-shadow-top-duration ease-in-out;
+    transition: -webkit-box-shadow $sc-photo-gallery-image-drop-shadow-top-duration ease-in-out;
+    -o-transition: box-shadow $sc-photo-gallery-image-drop-shadow-top-duration ease-in-out;
+    transition: box-shadow $sc-photo-gallery-image-drop-shadow-top-duration ease-in-out;
+
+    &:hover {
+      -webkit-box-shadow: 0 -12px 20px -12px $sc-photo-gallery-animation-shadow-color;
+      box-shadow: 0 -12px 20px -12px $sc-photo-gallery-animation-shadow-color;
+    }
+  }
+}
+
+@mixin image-drop-shadow-bottom-animation {
+  &.image-drop-shadow-bottom {
+    -webkit-box-shadow: 0 0 0 0 $sc-photo-gallery-animation-shadow-color;
+    box-shadow: 0 0 0 0 $sc-photo-gallery-animation-shadow-color;
+    -webkit-transition: -webkit-box-shadow $sc-photo-gallery-image-drop-shadow-bottom-duration ease-in-out;
+    transition: -webkit-box-shadow $sc-photo-gallery-image-drop-shadow-bottom-duration ease-in-out;
+    -o-transition: box-shadow $sc-photo-gallery-image-drop-shadow-bottom-duration ease-in-out;
+    transition: box-shadow $sc-photo-gallery-image-drop-shadow-bottom-duration ease-in-out;
+
+    &:hover {
+      -webkit-box-shadow: 0 12px 20px -12px $sc-photo-gallery-animation-shadow-color;
+      box-shadow: 0 12px 20px -12px $sc-photo-gallery-animation-shadow-color;
+    }
+  }
+}
