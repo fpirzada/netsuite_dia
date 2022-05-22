@@ -45,17 +45,24 @@ $sc-color-star-error: $sc-color-error;
     border-radius: 5px;
     border-width: 1px;
     border-color: black;
-    height: 45px;
+    color: black !important;
+    line-height: 35px !important;
 }
 
 .icon-display-table {
     @extend .fa;
     @extend %fa-th-large;
+    color: black !important;
+    line-height: 35px !important;
 }
 
 .icon-display-grid {
     @extend .fa;
     @extend %fa-th;
+    border-color: black;
+    color: black !important;
+    line-height: 35px !important;
+    font-size: 1.7rem !important;
 }
 
 .icon-close {

@@ -664,7 +664,17 @@
             "Modules/PaymentInstrument@sco-2018.1.0/Sass/_paymentinstrument-creditcard-edit-form-securitycode.scss",
             "Modules/PaymentInstrument@sco-2018.1.0/Sass/_paymentinstrument-creditcard-edit-form.scss",
             "Modules/PaymentInstrument@sco-2018.1.0/Sass/_paymentinstrument-creditcard-edit.scss",
-            "Modules/PaymentInstrument@sco-2018.1.0/Sass/_paymentinstrument-creditcard.scss"
+            "Modules/PaymentInstrument@sco-2018.1.0/Sass/_paymentinstrument-creditcard.scss",
+            "Modules/Header@sco-2018.1.0 2/Sass/_header-logo.scss",
+            "Modules/Header@sco-2018.1.0 2/Sass/_header-menu-myaccount.scss",
+            "Modules/Header@sco-2018.1.0 2/Sass/_header-menu.scss",
+            "Modules/Header@sco-2018.1.0 2/Sass/_header-mini-cart-item-cell.scss",
+            "Modules/Header@sco-2018.1.0 2/Sass/_header-mini-cart-summary.scss",
+            "Modules/Header@sco-2018.1.0 2/Sass/_header-mini-cart.scss",
+            "Modules/Header@sco-2018.1.0 2/Sass/_header-profile.scss",
+            "Modules/Header@sco-2018.1.0 2/Sass/_header-sidebar.scss",
+            "Modules/Header@sco-2018.1.0 2/Sass/_header-simplified.scss",
+            "Modules/Header@sco-2018.1.0 2/Sass/_header.scss"
         ]
     },
     "templates": {
@@ -854,7 +864,17 @@
                     "Modules/StoreLocator@sco-2018.1.0/Templates/store_locator_upgrade.tpl",
                     "Modules/SC.CCT.Html@sco-2018.1.0/Templates/sc_cct_html.tpl",
                     "Modules/Facets@sco-2018.1.0/Templates/facets_facet_list.tpl",
-                    "Modules/Facets@sco-2018.1.0/Templates/facets_facet_value.tpl"
+                    "Modules/Facets@sco-2018.1.0/Templates/facets_facet_value.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_logo.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_menu_myaccount.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_menu.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_mini_cart_item_cell.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_mini_cart_summary.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_mini_cart.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_profile.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_sidebar.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_simplified.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header.tpl"
                 ]
             },
             "myaccount": {
@@ -1141,7 +1161,17 @@
                     "Modules/StoreLocatorAccessPoints@sco-2018.1.0/Templates/storelocator_accesspoints_headerlink.tpl",
                     "Modules/SC.CCT.Html@sco-2018.1.0/Templates/sc_cct_html.tpl",
                     "Modules/Facets@sco-2018.1.0/Templates/facets_facet_list.tpl",
-                    "Modules/Facets@sco-2018.1.0/Templates/facets_facet_value.tpl"
+                    "Modules/Facets@sco-2018.1.0/Templates/facets_facet_value.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_logo.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_menu_myaccount.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_menu.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_mini_cart_item_cell.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_mini_cart_summary.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_mini_cart.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_profile.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_sidebar.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_simplified.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header.tpl"
                 ]
             },
             "checkout": {
@@ -1394,7 +1424,17 @@
                     "Modules/StoreLocator@sco-2018.1.0/Templates/store_locator_upgrade.tpl",
                     "Modules/SC.CCT.Html@sco-2018.1.0/Templates/sc_cct_html.tpl",
                     "Modules/Facets@sco-2018.1.0/Templates/facets_facet_list.tpl",
-                    "Modules/Facets@sco-2018.1.0/Templates/facets_facet_value.tpl"
+                    "Modules/Facets@sco-2018.1.0/Templates/facets_facet_value.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_logo.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_menu_myaccount.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_menu.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_mini_cart_item_cell.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_mini_cart_summary.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_mini_cart.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_profile.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_sidebar.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header_simplified.tpl",
+                    "Modules/Header@sco-2018.1.0 2/Templates/header.tpl"
                 ]
             }
         }

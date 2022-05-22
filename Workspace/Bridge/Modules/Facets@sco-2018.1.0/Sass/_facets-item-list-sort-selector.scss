@@ -6,9 +6,12 @@
 */
 
 .facets-item-list-sort-selector {
+    font-weight: 500;
     @extend .list-header-filter-input;
     border-radius: 5px;
     border-width: 1px;
     border-color: black;
-    height: 45px;
+    height: 35px;
+    padding: 5px 0px;
+    text-align: center;
 }

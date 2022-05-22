@@ -62,7 +62,6 @@ $sc-sidebar-size: 246px;
 }
 
 .header-main-wrapper {
-    padding: 0 4.5%;
     position: relative;
     background-color: #01426a;
 }
@@ -93,10 +92,6 @@ span.header-mini-cart-menu-cart-legend {
     color: #01426a;
     right: -2px;
     font-size: 15px;
-}
-
-.cart-login {
-    padding-left: 25%;
 }
 
 .cart-login img {
@@ -457,7 +452,6 @@ nav.header-menu-secondary-nav {
 ///////////////////////////////////////////////////////////////
 //secondary nav styles
 .header-secondary-wrapper {
-    padding-left: 2%;
     z-index: 1;
     position: absolute;
     top: 0;

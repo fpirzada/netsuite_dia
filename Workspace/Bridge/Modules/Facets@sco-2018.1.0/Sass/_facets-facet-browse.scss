@@ -8,6 +8,8 @@
 // Edited for Bridge Theme
 .facets-facet-browse {
     @extend .container;
+    width: 100%;
+    padding-top: 3%;
 }
 
 .facets-facet-browse-breadcrum {
@@ -18,16 +20,38 @@
     @extend .clearfix;
 }
 
+.hide {
+    display: none;
+}
+
+.p_facets_category_cell {
+    margin-bottom: 30px;
+}
+
+.arrow_ {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down_arraow {
+    margin-left: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
 /////////////////////////////////////////////////////////////////////////////////////////////
 //Facet Browse - Header
 .facets-facet-browse-header {
     @extend .clearfix;
-    height: 50px;
+    border-bottom: 1px solid black;
     // border-bottom: 1px solid $sc-color-theme-border;
     // padding-bottom: $sc-margin-lv3;
 }
 
 .facets-facet-browse-title {
+    font-weight: 600 !important;
     @extend .list-header-title-ahead;
     font-size: 20px !important;
     margin: 0 !important;
@@ -38,7 +62,6 @@
     margin: 0;
     color: black;
     font-size: 17px !important;
-    font-weight: bold;
 }
 
 .facets-facet-browse-title-alt {}
@@ -49,6 +72,7 @@
 
 .facets-facet-browse-list-header-actions {
     @extend .list-header-actions;
+    padding-top: 15px;
 }
 
 .facets-facet-browse-list-header-expander {
@@ -77,6 +101,7 @@
 
 .facets-facet-browse-list-header-filter-column {
     @extend .list-header-filter-column;
+    padding-top: 15px;
 }
 
 .facets-facet-browse-list-header-filter-facets {
@@ -89,6 +114,10 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 //Facet Browse - Header main content layout
+.header-side-bar {
+    padding-top: 5%;
+}
+
 .facets-facet-browse-content,
 .facets-facet-browse-empty-items {
     @extend .clearfix;
@@ -109,11 +138,26 @@
     line-height: 66px + $sc-padding-lv6;
 }
 
+.filter_ {
+    padding-left: 10%;
+}
+
+.my-1 {
+    font-weight: 300;
+}
+
+.side-bar-body {
+    background-color: #F5F5F5 !important;
+}
+
 .facets-facet-browse-facets {
     @extend .col-md-3;
     @include box-shadow(0 0 6px $sc-color-secondary);
     padding: 0;
-    background-color: $sc-neutral-shade-0;
+    margin-left: 12%;
+    width: 23% !important;
+    // background-color: $sc-neutral-shade-0;
+    background-color: none !important;
     overflow-x: hidden;
     @media (min-width: $screen-md-min) {
         @include box-shadow(none);
@@ -131,6 +175,8 @@
 .facets-facet-browse-results {
     @extend .col-md-9;
     padding: 0;
+    width: 55%;
+    margin-left: 3%;
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////////
@@ -160,6 +206,10 @@
 }
 
 .facets-facet-browse-items {
+    padding-top: 10px;
+    div:last-child {
+        border: none;
+    }
     .item-cell-price {
         margin-bottom: $sc-margin-lv2;
     }
@@ -184,4 +234,9 @@
 .facets-facet-browse-cms-area-2 {
     @extend .col-md-9;
     @extend .col-md-offset-3;
+}
+
+//////// javascript css ///////
+.global-views-breadcrumb-divider-new {
+    display: inline;
 }

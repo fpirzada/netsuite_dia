@@ -10,7 +10,7 @@
 {{/if}}
 
 {{#if hasFacetsOrAppliedFacets}}
-	<h3 class="facets-faceted-navigation-title">{{translate 'Narrow By'}}</h3>
+	<!--- <h3 class="facets-faceted-navigation-title">{{translate 'Narrow By'}}</h3> --->
 
 	<h4 class="facets-faceted-navigation-results">
 		{{#if keywords}}

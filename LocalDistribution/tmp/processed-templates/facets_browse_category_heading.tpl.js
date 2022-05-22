@@ -7,15 +7,15 @@ define('facets_browse_category_heading.tpl', ['Handlebars','Handlebars.CompilerN
 },"3":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3=container.escapeExpression;
 
-  return "		<div class=\"facets-browse-category-heading-main-image\">\r\n			<img src=\""
-    + alias3((compilerNameLookup(helpers,"resizeImage")||(depth0 && compilerNameLookup(depth0,"resizeImage"))||alias2).call(alias1,(depth0 != null ? compilerNameLookup(depth0,"banner") : depth0),"categorybanner",{"name":"resizeImage","hash":{},"data":data,"loc":{"start":{"line":17,"column":13},"end":{"line":17,"column":52}}}))
+  return "		<div class=\"facets-browse-category-heading-main-image\">\r\n			<!---- <img src=\""
+    + alias3((compilerNameLookup(helpers,"resizeImage")||(depth0 && compilerNameLookup(depth0,"resizeImage"))||alias2).call(alias1,(depth0 != null ? compilerNameLookup(depth0,"banner") : depth0),"categorybanner",{"name":"resizeImage","hash":{},"data":data,"loc":{"start":{"line":17,"column":20},"end":{"line":17,"column":59}}}))
     + "\" alt=\""
-    + alias3(((helper = (helper = compilerNameLookup(helpers,"pageheading") || (depth0 != null ? compilerNameLookup(depth0,"pageheading") : depth0)) != null ? helper : alias2),(typeof helper === "function" ? helper.call(alias1,{"name":"pageheading","hash":{},"data":data,"loc":{"start":{"line":17,"column":59},"end":{"line":17,"column":74}}}) : helper)))
-    + "\" />\r\n		</div>\r\n";
+    + alias3(((helper = (helper = compilerNameLookup(helpers,"pageheading") || (depth0 != null ? compilerNameLookup(depth0,"pageheading") : depth0)) != null ? helper : alias2),(typeof helper === "function" ? helper.call(alias1,{"name":"pageheading","hash":{},"data":data,"loc":{"start":{"line":17,"column":66},"end":{"line":17,"column":81}}}) : helper)))
+    + "\" /> --->\r\n		</div>\r\n";
 },"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {});
 
-  return "\n<section class=\"facets-browse-category-heading-list-header\">\r\n	<div class=\"facets-browse-category-heading-main-description\">\r\n		<h1>"
+  return "\r\n<section class=\"facets-browse-category-heading-list-header\">\r\n	<div class=\"facets-browse-category-heading-main-description\">\r\n		<h1>"
     + container.escapeExpression(((helper = (helper = compilerNameLookup(helpers,"pageheading") || (depth0 != null ? compilerNameLookup(depth0,"pageheading") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"pageheading","hash":{},"data":data,"loc":{"start":{"line":10,"column":6},"end":{"line":10,"column":21}}}) : helper)))
     + "</h1>\r\n"
     + ((stack1 = compilerNameLookup(helpers,"if").call(alias1,(depth0 != null ? compilerNameLookup(depth0,"showDescription") : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":11,"column":2},"end":{"line":13,"column":9}}})) != null ? stack1 : "")

@@ -5,8 +5,7 @@
 	may use this code subject to the terms that govern your access and use.
 }}
 
-<div class="facets-items-collection-view-row">
-<hr>
+<div class="facets-items-collection-view-row" >
 	<div data-type="backbone.collection.view.cells"></div>
 </div>
 

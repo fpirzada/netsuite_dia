@@ -6,27 +6,31 @@
 */
 
 // Edited for Bridge Theme
-
 .facets-browse-category-heading-list-header {
-	display: table;
-	padding-bottom: $sc-padding-lv3;
+    display: table;
+    padding-bottom: $sc-padding-lv3;
 }
 
 .facets-browse-category-heading-main-description {
-	width: auto;
-	margin: $sc-margin-lv2 $sc-margin-lv2 $sc-margin-lv2 0;
+    width: auto;
+    margin: $sc-margin-lv2 $sc-margin-lv2 $sc-margin-lv2 0;
+    // padding-left: 10px;
+}
 
+.facets-browse-category-heading-main-description h1 {
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
 }
 
 .facets-browse-category-heading-main-description h3 {
-	text-transform: none;
-	font-weight: normal;
+    text-transform: none;
+    font-weight: normal;
 }
 
 .facets-browse-category-heading-main-image {
-	display: none;
-
-	@media (min-width: $screen-md-min){
-		display: inherit;
-	}
+    display: none;
+    @media (min-width: $screen-md-min) {
+        display: inherit;
+    }
 }

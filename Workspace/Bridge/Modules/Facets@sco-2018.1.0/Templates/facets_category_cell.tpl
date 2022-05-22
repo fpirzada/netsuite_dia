@@ -5,6 +5,7 @@
 	may use this code subject to the terms that govern your access and use.
 }}
 
+
 <div class="facets-category-cell">
 	{{#if hasImage}}
 		<div class="facets-category-cell-thumbnail">

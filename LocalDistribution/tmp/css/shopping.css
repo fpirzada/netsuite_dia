@@ -242,24 +242,31 @@ th {
   .table-bordered td {
     border: 1px solid #ddd !important; } }
 
-.container, .nav-search-content, .site-search-content, .shopping-layout-breadcrumb, .shopping-layout-notifications, .cart, .cart-detailed, .error-management-forbidden-error, .error-management-internal-error, .error-management-page-not-found, .facets-facet-browse, .footer-simplified-content, .footer-content, .header-message .global-views-message, .header-message .cookie-warning-banner-view, .header-message .product-line-stock-msg-not-available, .header-message .product-reviews-form-confirmation-message, .header-main-nav, .header-menu-secondary-nav, .header-menu-level-container > li, .header-profile-menu-myaccount-container > li, .home-cms, .home, .home-slider-container .home-slide-caption .home-slide-caption-content, .product-details-full, .product-reviews-form, .product-reviews-form-preview, .product-reviews-form-confirmation, .cms-landing-page, .store-locator-list-all-main, .store-locator-main, .store-locator-details, .store-locator-upgrade-container, .checkout-layout-breadcrumb, .sc-blog-post-default-layout-container, .sc-blog-home-default-layout, .sc-order-status, .sc-item-comparison-widget-container .sc-widget-header, .sc-item-comparison-widget-container .sc-widget-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .sc-item-comparison-widget-container .sc-widget-non-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .comparison-page-layout-container, .record-searcher-suggestion-wrapper {
+.container, .nav-search-content, .site-search-content, .shopping-layout-breadcrumb,
+.shopping-layout-notifications, .cart, .cart-detailed, .error-management-forbidden-error, .error-management-internal-error, .error-management-page-not-found, .facets-facet-browse, .footer-simplified-content, .footer-content, .header-message .global-views-message, .header-message .cookie-warning-banner-view, .header-message .product-line-stock-msg-not-available, .header-message .product-reviews-form-confirmation-message, .header-main-nav, .header-menu-secondary-nav, .header-menu-level-container > li, .header-profile-menu-myaccount-container > li, .home-cms, .home, .home-slider-container .home-slide-caption .home-slide-caption-content, .product-details-full, .product-reviews-form, .product-reviews-form-preview, .product-reviews-form-confirmation, .cms-landing-page, .store-locator-list-all-main, .store-locator-main, .store-locator-details, .store-locator-upgrade-container, .checkout-layout-breadcrumb, .sc-blog-post-default-layout-container, .sc-blog-home-default-layout, .sc-order-status, .sc-item-comparison-widget-container .sc-widget-header, .sc-item-comparison-widget-container .sc-widget-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .sc-item-comparison-widget-container .sc-widget-non-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .comparison-page-layout-container, .record-searcher-suggestion-wrapper {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px; }
-  .container:before, .nav-search-content:before, .site-search-content:before, .shopping-layout-breadcrumb:before, .shopping-layout-notifications:before, .cart:before, .cart-detailed:before, .error-management-forbidden-error:before, .error-management-internal-error:before, .error-management-page-not-found:before, .facets-facet-browse:before, .footer-simplified-content:before, .footer-content:before, .header-message .global-views-message:before, .header-message .cookie-warning-banner-view:before, .header-message .product-line-stock-msg-not-available:before, .header-message .product-reviews-form-confirmation-message:before, .header-main-nav:before, .header-menu-secondary-nav:before, .header-menu-level-container > li:before, .header-profile-menu-myaccount-container > li:before, .home-cms:before, .home:before, .home-slider-container .home-slide-caption .home-slide-caption-content:before, .product-details-full:before, .product-reviews-form:before, .product-reviews-form-preview:before, .product-reviews-form-confirmation:before, .cms-landing-page:before, .store-locator-list-all-main:before, .store-locator-main:before, .store-locator-details:before, .store-locator-upgrade-container:before, .checkout-layout-breadcrumb:before, .sc-blog-post-default-layout-container:before, .sc-blog-home-default-layout:before, .sc-order-status:before, .sc-item-comparison-widget-container .sc-widget-header:before, .sc-item-comparison-widget-container .sc-widget-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper:before, .sc-item-comparison-widget-container .sc-widget-non-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper:before, .comparison-page-layout-container:before, .record-searcher-suggestion-wrapper:before, .container:after, .nav-search-content:after, .site-search-content:after, .shopping-layout-breadcrumb:after, .shopping-layout-notifications:after, .cart:after, .cart-detailed:after, .error-management-forbidden-error:after, .error-management-internal-error:after, .error-management-page-not-found:after, .facets-facet-browse:after, .footer-simplified-content:after, .footer-content:after, .header-message .global-views-message:after, .header-message .cookie-warning-banner-view:after, .header-message .product-line-stock-msg-not-available:after, .header-message .product-reviews-form-confirmation-message:after, .header-main-nav:after, .header-menu-secondary-nav:after, .header-menu-level-container > li:after, .header-profile-menu-myaccount-container > li:after, .home-cms:after, .home:after, .home-slider-container .home-slide-caption .home-slide-caption-content:after, .product-details-full:after, .product-reviews-form:after, .product-reviews-form-preview:after, .product-reviews-form-confirmation:after, .cms-landing-page:after, .store-locator-list-all-main:after, .store-locator-main:after, .store-locator-details:after, .store-locator-upgrade-container:after, .checkout-layout-breadcrumb:after, .sc-blog-post-default-layout-container:after, .sc-blog-home-default-layout:after, .sc-order-status:after, .sc-item-comparison-widget-container .sc-widget-header:after, .sc-item-comparison-widget-container .sc-widget-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper:after, .sc-item-comparison-widget-container .sc-widget-non-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper:after, .comparison-page-layout-container:after, .record-searcher-suggestion-wrapper:after {
+  .container:before, .nav-search-content:before, .site-search-content:before, .shopping-layout-breadcrumb:before,
+  .shopping-layout-notifications:before, .cart:before, .cart-detailed:before, .error-management-forbidden-error:before, .error-management-internal-error:before, .error-management-page-not-found:before, .facets-facet-browse:before, .footer-simplified-content:before, .footer-content:before, .header-message .global-views-message:before, .header-message .cookie-warning-banner-view:before, .header-message .product-line-stock-msg-not-available:before, .header-message .product-reviews-form-confirmation-message:before, .header-main-nav:before, .header-menu-secondary-nav:before, .header-menu-level-container > li:before, .header-profile-menu-myaccount-container > li:before, .home-cms:before, .home:before, .home-slider-container .home-slide-caption .home-slide-caption-content:before, .product-details-full:before, .product-reviews-form:before, .product-reviews-form-preview:before, .product-reviews-form-confirmation:before, .cms-landing-page:before, .store-locator-list-all-main:before, .store-locator-main:before, .store-locator-details:before, .store-locator-upgrade-container:before, .checkout-layout-breadcrumb:before, .sc-blog-post-default-layout-container:before, .sc-blog-home-default-layout:before, .sc-order-status:before, .sc-item-comparison-widget-container .sc-widget-header:before, .sc-item-comparison-widget-container .sc-widget-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper:before, .sc-item-comparison-widget-container .sc-widget-non-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper:before, .comparison-page-layout-container:before, .record-searcher-suggestion-wrapper:before, .container:after, .nav-search-content:after, .site-search-content:after, .shopping-layout-breadcrumb:after,
+  .shopping-layout-notifications:after, .cart:after, .cart-detailed:after, .error-management-forbidden-error:after, .error-management-internal-error:after, .error-management-page-not-found:after, .facets-facet-browse:after, .footer-simplified-content:after, .footer-content:after, .header-message .global-views-message:after, .header-message .cookie-warning-banner-view:after, .header-message .product-line-stock-msg-not-available:after, .header-message .product-reviews-form-confirmation-message:after, .header-main-nav:after, .header-menu-secondary-nav:after, .header-menu-level-container > li:after, .header-profile-menu-myaccount-container > li:after, .home-cms:after, .home:after, .home-slider-container .home-slide-caption .home-slide-caption-content:after, .product-details-full:after, .product-reviews-form:after, .product-reviews-form-preview:after, .product-reviews-form-confirmation:after, .cms-landing-page:after, .store-locator-list-all-main:after, .store-locator-main:after, .store-locator-details:after, .store-locator-upgrade-container:after, .checkout-layout-breadcrumb:after, .sc-blog-post-default-layout-container:after, .sc-blog-home-default-layout:after, .sc-order-status:after, .sc-item-comparison-widget-container .sc-widget-header:after, .sc-item-comparison-widget-container .sc-widget-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper:after, .sc-item-comparison-widget-container .sc-widget-non-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper:after, .comparison-page-layout-container:after, .record-searcher-suggestion-wrapper:after {
     content: " ";
     display: table; }
-  .container:after, .nav-search-content:after, .site-search-content:after, .shopping-layout-breadcrumb:after, .shopping-layout-notifications:after, .cart:after, .cart-detailed:after, .error-management-forbidden-error:after, .error-management-internal-error:after, .error-management-page-not-found:after, .facets-facet-browse:after, .footer-simplified-content:after, .footer-content:after, .header-message .global-views-message:after, .header-message .cookie-warning-banner-view:after, .header-message .product-line-stock-msg-not-available:after, .header-message .product-reviews-form-confirmation-message:after, .header-main-nav:after, .header-menu-secondary-nav:after, .header-menu-level-container > li:after, .header-profile-menu-myaccount-container > li:after, .home-cms:after, .home:after, .home-slider-container .home-slide-caption .home-slide-caption-content:after, .product-details-full:after, .product-reviews-form:after, .product-reviews-form-preview:after, .product-reviews-form-confirmation:after, .cms-landing-page:after, .store-locator-list-all-main:after, .store-locator-main:after, .store-locator-details:after, .store-locator-upgrade-container:after, .checkout-layout-breadcrumb:after, .sc-blog-post-default-layout-container:after, .sc-blog-home-default-layout:after, .sc-order-status:after, .sc-item-comparison-widget-container .sc-widget-header:after, .sc-item-comparison-widget-container .sc-widget-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper:after, .sc-item-comparison-widget-container .sc-widget-non-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper:after, .comparison-page-layout-container:after, .record-searcher-suggestion-wrapper:after {
+  .container:after, .nav-search-content:after, .site-search-content:after, .shopping-layout-breadcrumb:after,
+  .shopping-layout-notifications:after, .cart:after, .cart-detailed:after, .error-management-forbidden-error:after, .error-management-internal-error:after, .error-management-page-not-found:after, .facets-facet-browse:after, .footer-simplified-content:after, .footer-content:after, .header-message .global-views-message:after, .header-message .cookie-warning-banner-view:after, .header-message .product-line-stock-msg-not-available:after, .header-message .product-reviews-form-confirmation-message:after, .header-main-nav:after, .header-menu-secondary-nav:after, .header-menu-level-container > li:after, .header-profile-menu-myaccount-container > li:after, .home-cms:after, .home:after, .home-slider-container .home-slide-caption .home-slide-caption-content:after, .product-details-full:after, .product-reviews-form:after, .product-reviews-form-preview:after, .product-reviews-form-confirmation:after, .cms-landing-page:after, .store-locator-list-all-main:after, .store-locator-main:after, .store-locator-details:after, .store-locator-upgrade-container:after, .checkout-layout-breadcrumb:after, .sc-blog-post-default-layout-container:after, .sc-blog-home-default-layout:after, .sc-order-status:after, .sc-item-comparison-widget-container .sc-widget-header:after, .sc-item-comparison-widget-container .sc-widget-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper:after, .sc-item-comparison-widget-container .sc-widget-non-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper:after, .comparison-page-layout-container:after, .record-searcher-suggestion-wrapper:after {
     clear: both; }
   @media (min-width: 768px) {
-    .container, .nav-search-content, .site-search-content, .shopping-layout-breadcrumb, .shopping-layout-notifications, .cart, .cart-detailed, .error-management-forbidden-error, .error-management-internal-error, .error-management-page-not-found, .facets-facet-browse, .footer-simplified-content, .footer-content, .header-message .global-views-message, .header-message .cookie-warning-banner-view, .header-message .product-line-stock-msg-not-available, .header-message .product-reviews-form-confirmation-message, .header-main-nav, .header-menu-secondary-nav, .header-menu-level-container > li, .header-profile-menu-myaccount-container > li, .home-cms, .home, .home-slider-container .home-slide-caption .home-slide-caption-content, .product-details-full, .product-reviews-form, .product-reviews-form-preview, .product-reviews-form-confirmation, .cms-landing-page, .store-locator-list-all-main, .store-locator-main, .store-locator-details, .store-locator-upgrade-container, .checkout-layout-breadcrumb, .sc-blog-post-default-layout-container, .sc-blog-home-default-layout, .sc-order-status, .sc-item-comparison-widget-container .sc-widget-header, .sc-item-comparison-widget-container .sc-widget-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .sc-item-comparison-widget-container .sc-widget-non-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .comparison-page-layout-container, .record-searcher-suggestion-wrapper {
+    .container, .nav-search-content, .site-search-content, .shopping-layout-breadcrumb,
+    .shopping-layout-notifications, .cart, .cart-detailed, .error-management-forbidden-error, .error-management-internal-error, .error-management-page-not-found, .facets-facet-browse, .footer-simplified-content, .footer-content, .header-message .global-views-message, .header-message .cookie-warning-banner-view, .header-message .product-line-stock-msg-not-available, .header-message .product-reviews-form-confirmation-message, .header-main-nav, .header-menu-secondary-nav, .header-menu-level-container > li, .header-profile-menu-myaccount-container > li, .home-cms, .home, .home-slider-container .home-slide-caption .home-slide-caption-content, .product-details-full, .product-reviews-form, .product-reviews-form-preview, .product-reviews-form-confirmation, .cms-landing-page, .store-locator-list-all-main, .store-locator-main, .store-locator-details, .store-locator-upgrade-container, .checkout-layout-breadcrumb, .sc-blog-post-default-layout-container, .sc-blog-home-default-layout, .sc-order-status, .sc-item-comparison-widget-container .sc-widget-header, .sc-item-comparison-widget-container .sc-widget-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .sc-item-comparison-widget-container .sc-widget-non-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .comparison-page-layout-container, .record-searcher-suggestion-wrapper {
       width: 750px; } }
   @media (min-width: 992px) {
-    .container, .nav-search-content, .site-search-content, .shopping-layout-breadcrumb, .shopping-layout-notifications, .cart, .cart-detailed, .error-management-forbidden-error, .error-management-internal-error, .error-management-page-not-found, .facets-facet-browse, .footer-simplified-content, .footer-content, .header-message .global-views-message, .header-message .cookie-warning-banner-view, .header-message .product-line-stock-msg-not-available, .header-message .product-reviews-form-confirmation-message, .header-main-nav, .header-menu-secondary-nav, .header-menu-level-container > li, .header-profile-menu-myaccount-container > li, .home-cms, .home, .home-slider-container .home-slide-caption .home-slide-caption-content, .product-details-full, .product-reviews-form, .product-reviews-form-preview, .product-reviews-form-confirmation, .cms-landing-page, .store-locator-list-all-main, .store-locator-main, .store-locator-details, .store-locator-upgrade-container, .checkout-layout-breadcrumb, .sc-blog-post-default-layout-container, .sc-blog-home-default-layout, .sc-order-status, .sc-item-comparison-widget-container .sc-widget-header, .sc-item-comparison-widget-container .sc-widget-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .sc-item-comparison-widget-container .sc-widget-non-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .comparison-page-layout-container, .record-searcher-suggestion-wrapper {
+    .container, .nav-search-content, .site-search-content, .shopping-layout-breadcrumb,
+    .shopping-layout-notifications, .cart, .cart-detailed, .error-management-forbidden-error, .error-management-internal-error, .error-management-page-not-found, .facets-facet-browse, .footer-simplified-content, .footer-content, .header-message .global-views-message, .header-message .cookie-warning-banner-view, .header-message .product-line-stock-msg-not-available, .header-message .product-reviews-form-confirmation-message, .header-main-nav, .header-menu-secondary-nav, .header-menu-level-container > li, .header-profile-menu-myaccount-container > li, .home-cms, .home, .home-slider-container .home-slide-caption .home-slide-caption-content, .product-details-full, .product-reviews-form, .product-reviews-form-preview, .product-reviews-form-confirmation, .cms-landing-page, .store-locator-list-all-main, .store-locator-main, .store-locator-details, .store-locator-upgrade-container, .checkout-layout-breadcrumb, .sc-blog-post-default-layout-container, .sc-blog-home-default-layout, .sc-order-status, .sc-item-comparison-widget-container .sc-widget-header, .sc-item-comparison-widget-container .sc-widget-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .sc-item-comparison-widget-container .sc-widget-non-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .comparison-page-layout-container, .record-searcher-suggestion-wrapper {
       width: 970px; } }
   @media (min-width: 1200px) {
-    .container, .nav-search-content, .site-search-content, .shopping-layout-breadcrumb, .shopping-layout-notifications, .cart, .cart-detailed, .error-management-forbidden-error, .error-management-internal-error, .error-management-page-not-found, .facets-facet-browse, .footer-simplified-content, .footer-content, .header-message .global-views-message, .header-message .cookie-warning-banner-view, .header-message .product-line-stock-msg-not-available, .header-message .product-reviews-form-confirmation-message, .header-main-nav, .header-menu-secondary-nav, .header-menu-level-container > li, .header-profile-menu-myaccount-container > li, .home-cms, .home, .home-slider-container .home-slide-caption .home-slide-caption-content, .product-details-full, .product-reviews-form, .product-reviews-form-preview, .product-reviews-form-confirmation, .cms-landing-page, .store-locator-list-all-main, .store-locator-main, .store-locator-details, .store-locator-upgrade-container, .checkout-layout-breadcrumb, .sc-blog-post-default-layout-container, .sc-blog-home-default-layout, .sc-order-status, .sc-item-comparison-widget-container .sc-widget-header, .sc-item-comparison-widget-container .sc-widget-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .sc-item-comparison-widget-container .sc-widget-non-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .comparison-page-layout-container, .record-searcher-suggestion-wrapper {
+    .container, .nav-search-content, .site-search-content, .shopping-layout-breadcrumb,
+    .shopping-layout-notifications, .cart, .cart-detailed, .error-management-forbidden-error, .error-management-internal-error, .error-management-page-not-found, .facets-facet-browse, .footer-simplified-content, .footer-content, .header-message .global-views-message, .header-message .cookie-warning-banner-view, .header-message .product-line-stock-msg-not-available, .header-message .product-reviews-form-confirmation-message, .header-main-nav, .header-menu-secondary-nav, .header-menu-level-container > li, .header-profile-menu-myaccount-container > li, .home-cms, .home, .home-slider-container .home-slide-caption .home-slide-caption-content, .product-details-full, .product-reviews-form, .product-reviews-form-preview, .product-reviews-form-confirmation, .cms-landing-page, .store-locator-list-all-main, .store-locator-main, .store-locator-details, .store-locator-upgrade-container, .checkout-layout-breadcrumb, .sc-blog-post-default-layout-container, .sc-blog-home-default-layout, .sc-order-status, .sc-item-comparison-widget-container .sc-widget-header, .sc-item-comparison-widget-container .sc-widget-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .sc-item-comparison-widget-container .sc-widget-non-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .comparison-page-layout-container, .record-searcher-suggestion-wrapper {
       width: 1170px; } }
 
 .container-fluid, .home-fluid, .cms-content-merchzone aside {
@@ -4541,8 +4548,26 @@ h3.product-reviews-center-container-header-title,
 .testimonial .product-reviews-center-container-header-title.testimonial-content-title,
 .featuredproductcct-layout .ribbon,
 h3,
-.testimonial .testimonial-content-title, h4, .cart-confirmation-modal .transaction-line-views-selected-option-label,
-.cart-confirmation-modal .cart-confirmation-modal-quantity-label, .cart-confirmation-modal .transaction-line-views-selected-option-value, .cart-confirmation-modal .cart-confirmation-modal-quantity-value, .product-views-option-tile-label, .testimonial .testimonial-content-subtitle, h5, h6, p, .push-button-secondary span, .push-button-description span, .product-details-information-pusher span, .product-reviews-center-pusher span, .testimonial .testimonial-content-paragraph, pre, ul, ol, dl, address, a, input, textarea, button, fieldset {
+.testimonial .testimonial-content-title,
+h4,
+.cart-confirmation-modal .transaction-line-views-selected-option-label,
+.cart-confirmation-modal .cart-confirmation-modal-quantity-label,
+.cart-confirmation-modal .transaction-line-views-selected-option-value,
+.cart-confirmation-modal .cart-confirmation-modal-quantity-value,
+.product-views-option-tile-label,
+.testimonial .testimonial-content-subtitle,
+h5,
+h6, p, .push-button-secondary span, .push-button-description span, .product-details-information-pusher span, .product-reviews-center-pusher span, .testimonial .testimonial-content-paragraph,
+pre,
+ul,
+ol,
+dl,
+address,
+a,
+input,
+textarea,
+button,
+fieldset {
   margin: 0;
   padding: 0;
   border: 0; }
@@ -4550,7 +4575,8 @@ h3,
 address {
   font-style: normal; }
 
-ul, li {
+ul,
+li {
   list-style: none; }
 
 img {
@@ -4564,14 +4590,16 @@ a {
   cursor: pointer;
   cursor: hand; }
 
-a:hover, a:focus {
-  color: #0C10C4;
+a:hover,
+a:focus {
+  color: black;
   text-decoration: none; }
 
 a:active {
   color: #0f54f8; }
 
-[data-toggle="dropdown"]:hover, [data-toggle="dropdown"]:focus {
+[data-toggle="dropdown"]:hover,
+[data-toggle="dropdown"]:focus {
   color: #031528; }
 
 .open > [data-toggle="dropdown"] {
@@ -4631,7 +4659,8 @@ hr {
     list-style: decimal; }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .container, .nav-search-content, .site-search-content, .shopping-layout-breadcrumb, .shopping-layout-notifications, .cart, .cart-detailed, .error-management-forbidden-error, .error-management-internal-error, .error-management-page-not-found, .facets-facet-browse, .footer-simplified-content, .footer-content, .header-message .global-views-message, .header-message .cookie-warning-banner-view, .header-message .product-line-stock-msg-not-available, .header-message .product-reviews-form-confirmation-message, .header-main-nav, .header-menu-secondary-nav, .header-menu-level-container > li, .header-profile-menu-myaccount-container > li, .home-cms, .home, .home-slider-container .home-slide-caption .home-slide-caption-content, .product-details-full, .product-reviews-form, .product-reviews-form-preview, .product-reviews-form-confirmation, .cms-landing-page, .store-locator-list-all-main, .store-locator-main, .store-locator-details, .store-locator-upgrade-container, .checkout-layout-breadcrumb, .sc-blog-post-default-layout-container, .sc-blog-home-default-layout, .sc-order-status, .sc-item-comparison-widget-container .sc-widget-header, .sc-item-comparison-widget-container .sc-widget-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .sc-item-comparison-widget-container .sc-widget-non-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .comparison-page-layout-container, .record-searcher-suggestion-wrapper {
+  .container, .nav-search-content, .site-search-content, .shopping-layout-breadcrumb,
+  .shopping-layout-notifications, .cart, .cart-detailed, .error-management-forbidden-error, .error-management-internal-error, .error-management-page-not-found, .facets-facet-browse, .footer-simplified-content, .footer-content, .header-message .global-views-message, .header-message .cookie-warning-banner-view, .header-message .product-line-stock-msg-not-available, .header-message .product-reviews-form-confirmation-message, .header-main-nav, .header-menu-secondary-nav, .header-menu-level-container > li, .header-profile-menu-myaccount-container > li, .home-cms, .home, .home-slider-container .home-slide-caption .home-slide-caption-content, .product-details-full, .product-reviews-form, .product-reviews-form-preview, .product-reviews-form-confirmation, .cms-landing-page, .store-locator-list-all-main, .store-locator-main, .store-locator-details, .store-locator-upgrade-container, .checkout-layout-breadcrumb, .sc-blog-post-default-layout-container, .sc-blog-home-default-layout, .sc-order-status, .sc-item-comparison-widget-container .sc-widget-header, .sc-item-comparison-widget-container .sc-widget-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .sc-item-comparison-widget-container .sc-widget-non-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .comparison-page-layout-container, .record-searcher-suggestion-wrapper {
     width: auto; } }
 
 @media (max-width: 768px) {
@@ -6139,8 +6168,14 @@ h3.product-reviews-center-container-header-title,
 .testimonial .product-reviews-center-container-header-title.testimonial-content-title,
 .featuredproductcct-layout .ribbon,
 h3,
-.testimonial .testimonial-content-title, h4, .cart-confirmation-modal .transaction-line-views-selected-option-label,
-.cart-confirmation-modal .cart-confirmation-modal-quantity-label, .cart-confirmation-modal .transaction-line-views-selected-option-value, .cart-confirmation-modal .cart-confirmation-modal-quantity-value, .product-views-option-tile-label, .testimonial .testimonial-content-subtitle,
+.testimonial .testimonial-content-title,
+h4,
+.cart-confirmation-modal .transaction-line-views-selected-option-label,
+.cart-confirmation-modal .cart-confirmation-modal-quantity-label,
+.cart-confirmation-modal .transaction-line-views-selected-option-value,
+.cart-confirmation-modal .cart-confirmation-modal-quantity-value,
+.product-views-option-tile-label,
+.testimonial .testimonial-content-subtitle,
 h5 {
   font-family: Rubik;
   font-weight: 300;
@@ -6201,8 +6236,14 @@ h3,
     .testimonial .testimonial-content-title {
       font-size: 1.2rem; } }
 
-h4, .cart-confirmation-modal .transaction-line-views-selected-option-label,
-.cart-confirmation-modal .cart-confirmation-modal-quantity-label, .cart-confirmation-modal .transaction-line-views-selected-option-value, .cart-confirmation-modal .cart-confirmation-modal-quantity-value, .product-views-option-tile-label, .testimonial .testimonial-content-subtitle {
+
+h4,
+.cart-confirmation-modal .transaction-line-views-selected-option-label,
+.cart-confirmation-modal .cart-confirmation-modal-quantity-label,
+.cart-confirmation-modal .transaction-line-views-selected-option-value,
+.cart-confirmation-modal .cart-confirmation-modal-quantity-value,
+.product-views-option-tile-label,
+.testimonial .testimonial-content-subtitle {
   color: #829cdb;
   font-size: 1rem;
   font-style: normal;
@@ -6212,8 +6253,14 @@ h4, .cart-confirmation-modal .transaction-line-views-selected-option-label,
   margin-top: 0;
   margin-bottom: 0; }
   @media (min-width: 992px) {
-    h4, .cart-confirmation-modal .transaction-line-views-selected-option-label,
-    .cart-confirmation-modal .cart-confirmation-modal-quantity-label, .cart-confirmation-modal .transaction-line-views-selected-option-value, .cart-confirmation-modal .cart-confirmation-modal-quantity-value, .product-views-option-tile-label, .testimonial .testimonial-content-subtitle {
+    
+    h4,
+    .cart-confirmation-modal .transaction-line-views-selected-option-label,
+    .cart-confirmation-modal .cart-confirmation-modal-quantity-label,
+    .cart-confirmation-modal .transaction-line-views-selected-option-value,
+    .cart-confirmation-modal .cart-confirmation-modal-quantity-value,
+    .product-views-option-tile-label,
+    .testimonial .testimonial-content-subtitle {
       font-size: 1.067rem; } }
 
 h5 {
@@ -6706,7 +6753,18 @@ textarea {
   border-radius: 5px;
   border-width: 1px;
   border-color: black;
-  height: 45px; }
+  color: black !important;
+  line-height: 35px !important; }
+
+.icon-display-table {
+  color: black !important;
+  line-height: 35px !important; }
+
+.icon-display-grid {
+  border-color: black;
+  color: black !important;
+  line-height: 35px !important;
+  font-size: 1.7rem !important; }
 
 .icon-container-info {
   background-color: #f06543; }
@@ -8478,11 +8536,7 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
 	may use this code subject to the terms that govern your access and use.
 */
 .shopping-layout-header {
-  margin-bottom: 20px;
-  box-shadow: 3px 0 6px 0 #c8d6e3; }
-  @media (min-width: 768px) {
-    .shopping-layout-header {
-      margin-bottom: 15px; } }
+  box-shadow: 0px 5px 5px lightblue; }
 
 .shopping-layout-no-javascript-msg {
   width: 100%; }
@@ -9411,6 +9465,12 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
   width: auto;
   margin: 10px 10px 10px 0; }
 
+.facets-browse-category-heading-main-description h1, .facets-browse-category-heading-main-description .large-title, .facets-browse-category-heading-main-description .home-merchandizing-zone-content h2, .home-merchandizing-zone-content .facets-browse-category-heading-main-description h2, .facets-browse-category-heading-main-description .home-merchandizing-zone-content h3.product-reviews-center-container-header-title, .home-merchandizing-zone-content .facets-browse-category-heading-main-description h3.product-reviews-center-container-header-title, .facets-browse-category-heading-main-description .home-merchandizing-zone-content .testimonial .product-reviews-center-container-header-title.testimonial-content-title, .home-merchandizing-zone-content .testimonial .facets-browse-category-heading-main-description .product-reviews-center-container-header-title.testimonial-content-title, .facets-browse-category-heading-main-description .testimonial .home-merchandizing-zone-content .product-reviews-center-container-header-title.testimonial-content-title, .testimonial .home-merchandizing-zone-content .facets-browse-category-heading-main-description .product-reviews-center-container-header-title.testimonial-content-title, .facets-browse-category-heading-main-description .home-merchandizing-zone-content .featuredproductcct-layout .ribbon, .home-merchandizing-zone-content .featuredproductcct-layout .facets-browse-category-heading-main-description .ribbon, .facets-browse-category-heading-main-description .featuredproductcct-layout .home-merchandizing-zone-content .ribbon, .featuredproductcct-layout .home-merchandizing-zone-content .facets-browse-category-heading-main-description .ribbon, .facets-browse-category-heading-main-description .large-title-navigable, .facets-browse-category-heading-main-description .cart-lines-name-link, .facets-browse-category-heading-main-description .transaction-line-views-cell-actionable-name-link, .facets-browse-category-heading-main-description .product-list-details-later-macro-name-link, .facets-browse-category-heading-main-description .large-title-viewonly, .facets-browse-category-heading-main-description .large-price, .facets-browse-category-heading-main-description .cart-confirmation-modal .product-views-price-lead, .cart-confirmation-modal .facets-browse-category-heading-main-description .product-views-price-lead, .facets-browse-category-heading-main-description .product-details-full-main .product-views-price-lead, .product-details-full-main .facets-browse-category-heading-main-description .product-views-price-lead, .facets-browse-category-heading-main-description .product-details-full-price .item-views-price-lead, .product-details-full-price .facets-browse-category-heading-main-description .item-views-price-lead, .facets-browse-category-heading-main-description .product-details-options-selector-content .item-view-lead-price, .product-details-options-selector-content .facets-browse-category-heading-main-description .item-view-lead-price, .facets-browse-category-heading-main-description .product-details-quickview-main .product-views-price-lead, .product-details-quickview-main .facets-browse-category-heading-main-description .product-views-price-lead, .facets-browse-category-heading-main-description .transaction-line-views-price-lead, .facets-browse-category-heading-main-description .cart-confirmation-modal-item-name, .facets-browse-category-heading-main-description .item-relations-correlated h3, .item-relations-correlated .facets-browse-category-heading-main-description h3, .facets-browse-category-heading-main-description .item-relations-correlated .testimonial .testimonial-content-title, .item-relations-correlated .testimonial .facets-browse-category-heading-main-description .testimonial-content-title, .facets-browse-category-heading-main-description .testimonial .item-relations-correlated .testimonial-content-title, .testimonial .item-relations-correlated .facets-browse-category-heading-main-description .testimonial-content-title, .facets-browse-category-heading-main-description .item-relations-related h3, .item-relations-related .facets-browse-category-heading-main-description h3, .facets-browse-category-heading-main-description .item-relations-related .testimonial .testimonial-content-title, .item-relations-related .testimonial .facets-browse-category-heading-main-description .testimonial-content-title, .facets-browse-category-heading-main-description .testimonial .item-relations-related .testimonial-content-title, .testimonial .item-relations-related .facets-browse-category-heading-main-description .testimonial-content-title,
+.facets-browse-category-heading-main-description .recently-viewed-items h3, .recently-viewed-items .facets-browse-category-heading-main-description h3, .facets-browse-category-heading-main-description .recently-viewed-items .testimonial .testimonial-content-title, .recently-viewed-items .testimonial .facets-browse-category-heading-main-description .testimonial-content-title, .facets-browse-category-heading-main-description .testimonial .recently-viewed-items .testimonial-content-title, .testimonial .recently-viewed-items .facets-browse-category-heading-main-description .testimonial-content-title, .facets-browse-category-heading-main-description .product-list-details-later-list-header-title, .facets-browse-category-heading-main-description .cms-landing-page-about-us .about-staff-title, .cms-landing-page-about-us .facets-browse-category-heading-main-description .about-staff-title, .facets-browse-category-heading-main-description h3.columnscct-header, .facets-browse-category-heading-main-description .testimonial .columnscct-header.testimonial-content-title, .testimonial .facets-browse-category-heading-main-description .columnscct-header.testimonial-content-title, .facets-browse-category-heading-main-description .featuredcategorycct-header-container, .facets-browse-category-heading-main-description .testimonial .testimonial-header, .testimonial .facets-browse-category-heading-main-description .testimonial-header {
+  color: black;
+  font-weight: bold;
+  text-transform: capitalize; }
+
 .facets-browse-category-heading-main-description h3, .facets-browse-category-heading-main-description .testimonial .testimonial-content-title, .testimonial .facets-browse-category-heading-main-description .testimonial-content-title {
   text-transform: none;
   font-weight: normal; }
@@ -9466,6 +9526,7 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
 	may use this code subject to the terms that govern your access and use.
 */
 .facets-category-cell {
+  height: 140px;
   float: left;
   position: relative;
   min-height: 1px;
@@ -9475,16 +9536,35 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
   width: 50%; }
   @media (min-width: 992px) {
     .facets-category-cell {
-      width: 25%; } }
+      width: 16%; } }
   @media (max-width: 1199px) {
     .facets-category-cell:nth-child(2n+1) {
       clear: both; } }
   @media (min-width: 992px) {
-    .facets-category-cell:nth-child(4n+1) {
+    .facets-category-cell:nth-child(6n+1) {
       clear: both; } }
 
+.facets-category-cell-image {
+  height: 105px; }
+
+.facets-category-cell:hover .facets-category-cell-image {
+  box-shadow: 0px 0px 0px 1px #BCBCBC;
+  transition: box-shadow 0.2s linear;
+  height: 105px; }
+
+.facets-category-cell:hover .facets-category-cell-anchor {
+  text-decoration: solid underline black 1px; }
+
 .facets-category-cell-title {
-  padding: 10px 0px; }
+  padding: 0px 10px;
+  line-height: 1; }
+
+.facets-category-cell-anchor {
+  color: black;
+  font-size: 12px; }
+
+.hide {
+  display: none; }
 
 /*
 	© 2017 NetSuite Inc.
@@ -9502,17 +9582,47 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
 	provided, however, if you are an authorized user with a NetSuite account or log-in, you
 	may use this code subject to the terms that govern your access and use.
 */
+.facets-facet-browse {
+  width: 100%;
+  padding-top: 3%; }
+
+.hide {
+  display: none; }
+
+.p_facets_category_cell {
+  margin-bottom: 30px; }
+
+.arrow_ {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px; }
+
+.down_arraow {
+  margin-left: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg); }
+
 .facets-facet-browse-header {
-  height: 50px; }
+  border-bottom: 1px solid black; }
 
 .facets-facet-browse-title {
+  font-weight: 600 !important;
   font-size: 20px !important;
   margin: 0 !important;
   padding-top: 4%;
   margin: 0;
   color: black;
-  font-size: 17px !important;
-  font-weight: bold; }
+  font-size: 17px !important; }
+
+.facets-facet-browse-list-header-actions {
+  padding-top: 15px; }
+
+.facets-facet-browse-list-header-filter-column {
+  padding-top: 15px; }
+
+.header-side-bar {
+  padding-top: 5%; }
 
 .facets-facet-browse-facets-sidebar {
   display: none; }
@@ -9526,12 +9636,23 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
 .facets-faceted-navigation-item-cateogry .facets-faceted-navigation-item-facet-group-expander-icon {
   line-height: 96px; }
 
+.filter_ {
+  padding-left: 10%; }
+
+.my-1 {
+  font-weight: 300; }
+
+.side-bar-body {
+  background-color: #F5F5F5 !important; }
+
 .facets-facet-browse-facets {
   -webkit-box-shadow: 0 0 6px #f06543;
   -moz-box-shadow: 0 0 6px #f06543;
   box-shadow: 0 0 6px #f06543;
   padding: 0;
-  background-color: white;
+  margin-left: 12%;
+  width: 23% !important;
+  background-color: none !important;
   overflow-x: hidden; }
   @media (min-width: 992px) {
     .facets-facet-browse-facets {
@@ -9547,7 +9668,9 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
   margin-left: 0px; }
 
 .facets-facet-browse-results {
-  padding: 0; }
+  padding: 0;
+  width: 55%;
+  margin-left: 3%; }
 
 .facets-facet-browse-items .backbone-collection-view-row {
   margin-bottom: 20px; }
@@ -9568,12 +9691,15 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
       padding-left: 15px;
       padding-right: 15px; } }
 
-.facets-facet-browse-items .item-cell-price {
-  margin-bottom: 10px; }
-
-.facets-facet-browse-items .item-cell-image, .facets-facet-browse-items .facets-item-cell-grid-image {
-  max-width: 100%;
-  max-height: 100%; }
+.facets-facet-browse-items {
+  padding-top: 10px; }
+  .facets-facet-browse-items div:last-child {
+    border: none; }
+  .facets-facet-browse-items .item-cell-price {
+    margin-bottom: 10px; }
+  .facets-facet-browse-items .item-cell-image, .facets-facet-browse-items .facets-item-cell-grid-image {
+    max-width: 100%;
+    max-height: 100%; }
 
 .facets-facet-browse-pagination {
   height: 50px;
@@ -9582,6 +9708,9 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
 
 .facets-facet-browse-banner-section-bottom {
   clear: both; }
+
+.global-views-breadcrumb-divider-new {
+  display: inline; }
 
 /*
 	© 2017 NetSuite Inc.
@@ -9628,12 +9757,17 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
 .facets-faceted-navigation-item-range-facet-group-wrapper {
   padding-top: 10px; }
 
-.facets-faceted-navigation-item-range-start {
-  color: #f06543; }
-
 .facets-faceted-navigation-item-range-end {
-  color: #f06543;
   float: right; }
+
+.facets-faceted-navigation-item-range-slider-bar {
+  background-color: black !important; }
+
+.facets-faceted-navigation-item-range-slider-bar-right {
+  color: black !important; }
+
+.facets-faceted-navigation-item-range-slider-bar-left {
+  color: black !important; }
 
 .price-range-slider-bar, .facets-faceted-navigation-item-range-slider-bar {
   background-color: #00cc6e;
@@ -9761,6 +9895,18 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
   width: 100%;
   padding: 0; }
 
+.facets-item-cell-grid-quick-view-link {
+  background: #00426A;
+  border-color: #00426A;
+  border-radius: 5px;
+  font-size: x-small;
+  padding: 6px 10px;
+  text-transform: capitalize; }
+
+.facets-item-cell-grid-quick-view-link:hover {
+  background: #00426A;
+  border-color: #00426A; }
+
 .facets-item-cell-grid-image-wrapper {
   position: relative;
   text-align: center; }
@@ -9803,7 +9949,7 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
   margin: 10px 0 5px 0;
   background-color: #00426A !important;
   color: #ffffff !important;
-  margin: 5px 0 0 0 !important;
+  margin: 0px 0 0 0 !important;
   text-align: center;
   font-size: 12px;
   width: 100px; }
@@ -9914,7 +10060,10 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
 	may use this code subject to the terms that govern your access and use.
 */
 .facets-item-list-display-selector {
-  margin-right: 3px; }
+  margin-right: 3px;
+  border-color: black;
+  border-radius: 5px;
+  height: 35px; }
 
 .facets-item-list-display-selector.active {
   display: none; }
@@ -9935,10 +10084,12 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
 	may use this code subject to the terms that govern your access and use.
 */
 .facets-item-list-show-selector {
+  font-weight: 500;
   border-radius: 5px;
   border-width: 1px;
   border-color: black;
-  height: 45px; }
+  height: 35px;
+  padding: 5px 22px 5px 10px; }
 
 /*
 	© 2017 NetSuite Inc.
@@ -9947,10 +10098,13 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
 	may use this code subject to the terms that govern your access and use.
 */
 .facets-item-list-sort-selector {
+  font-weight: 500;
   border-radius: 5px;
   border-width: 1px;
   border-color: black;
-  height: 45px; }
+  height: 35px;
+  padding: 5px 0px;
+  text-align: center; }
 
 /*
 	© 2017 NetSuite Inc.
@@ -9965,7 +10119,7 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
 	may use this code subject to the terms that govern your access and use.
 */
 .facets-items-collection-view-cell-span3 {
-  border: 1px;
+  border-right: 1px solid black;
   border-color: #c8d6e3; }
 
 /*
@@ -9975,7 +10129,11 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
 	may use this code subject to the terms that govern your access and use.
 */
 .facets-items-collection-view-row {
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  border-bottom: 1px solid #c8d6e3;
+  padding-top: 15px; }
+  .facets-items-collection-view-row div:last-child {
+    border: none; }
 
 /*
 	© 2017 NetSuite Inc.
@@ -10494,6 +10652,13 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
 	provided, however, if you are an authorized user with a NetSuite account or log-in, you
 	may use this code subject to the terms that govern your access and use.
 */
+.global-views-breadcrumb-item-active {
+  color: black; }
+
+.global-views-breadcrumb-item a {
+  color: black;
+  font-weight: 300; }
+
 .global-views-breadcrumb {
   font-size: 14px; }
 
@@ -10550,21 +10715,72 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
         margin-right: -30px; } }
 
 .header-main-wrapper {
-  height: 40px;
+  padding: 0 4.5%;
   position: relative;
-  background-color: #053257; }
+  background-color: #01426a; }
+
+.secondary-wrapp {
+  background: #ffffff;
+  box-shadow: 0px 0px 14px #cccc;
+  /*overflow:hidden*/ }
+
+ul.header-menu-level-container > li, ul.header-profile-menu-myaccount-container > li {
+  width: 1200px;
+  box-shadow: 0px 4px 6px #cccccc; }
+
+.menu-middle {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+span.header-mini-cart-menu-cart-legend {
+  position: absolute;
+  top: -7px;
+  color: #01426a;
+  right: -2px;
+  font-size: 15px; }
+
+.cart-login {
+  padding-left: 25%; }
+
+.cart-login img {
+  width: 30px;
+  margin: 0 auto;
+  display: table; }
+
+span.icon-label {
+  line-height: 1;
+  display: block; }
+
+body .cart-login ul li a,
+.icon-label {
+  color: #00426a;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center; }
+
+.nav-search-content, .site-search-content,
+.site-search-content {
+  width: 100%; }
+
+nav.header-menu-secondary-nav {
+  width: 100%; }
 
 .header-main-nav {
-  width: auto;
+  width: 100%;
   background-color: transparent !important;
-  min-height: 72px;
   border-bottom: 0 solid transparent; }
   @media (min-width: 992px) {
     .header-main-nav {
-      padding: 0 4% 0 4%; } }
-  .header-main-nav a i, .header-main-nav button i {
+      padding-right: 0;
+      padding-left: 0; } }
+  .header-main-nav a i,
+  .header-main-nav button i {
     color: white; }
-  .header-main-nav a:active i, .header-main-nav button:active i {
+  .header-main-nav a:active i,
+  .header-main-nav button:active i {
     color: #f06543; }
   .header-main-nav a.header-mini-cart-menu-cart-link i {
     color: white; }
@@ -10650,24 +10866,7 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
 
 .header-right-menu {
   display: flex;
-  float: right;
-  margin: auto;
-  color: white; }
-
-.header-left-menu {
-  display: flex;
-  float: left;
-  margin: auto;
-  color: white;
-  padding: 8px; }
-
-.header-number {
-  margin: auto;
-  color: white;
-  padding: 8px; }
-
-.space-left {
-  padding-left: 10px; }
+  float: right; }
 
 .header-menu-profile,
 .header-menu-quote,
@@ -10694,9 +10893,6 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
 .header-menu-cart {
   float: left;
   position: relative; }
-  @media (min-width: 992px) {
-    .header-menu-cart {
-      margin-left: 20px; } }
 
 .header-menu-searchmobile-icon {
   color: white;
@@ -10761,15 +10957,12 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
   overflow: hidden;
   color: #c8d6e3;
   min-width: 40px;
-  height: 40px;
   line-height: 40px; }
   @media (min-width: 992px) {
     .header-menu-cart-link, .header-mini-cart-menu-cart-link {
       background-color: transparent;
       min-width: 45px;
-      height: 30px;
       line-height: 30px;
-      margin-top: 10px;
       -webkit-border-radius: 0px;
       -moz-border-radius: 0px;
       -ms-border-radius: 0px;
@@ -10811,12 +11004,13 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
   margin-left: 5px; }
 
 .header-secondary-wrapper {
+  padding-left: 2%;
   z-index: 1;
   position: absolute;
   top: 0;
   bottom: 0;
   left: -246px;
-  width: 246px;
+  width: auto;
   background-color: white; }
   @media (min-width: 992px) {
     .header-secondary-wrapper {
@@ -10864,13 +11058,22 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
   display: block; }
 
 .header-site-search {
-  display: none;
   background-color: white;
-  width: 100%; }
-  @media (min-width: 992px) {
-    .header-site-search {
-      margin-left: auto;
-      margin-right: auto; } }
+  width: 27%; }
+
+.header-left-menu {
+  display: inline-block; }
+  .header-left-menu li {
+    display: inline-block;
+    padding: 0 10px; }
+    .header-left-menu li a {
+      height: 50px;
+      line-height: 50px;
+      text-transform: none;
+      font-size: 15px; }
+      .header-left-menu li a:hover {
+        color: #fff;
+        text-decoration: underline; }
 
 .header-subheader-options {
   display: none; }
@@ -10881,10 +11084,13 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
     display: inline-block; }
   .header-subheader-options li a {
     display: block;
-    color: white;
-    text-transform: uppercase; }
+    /*color: $sc-header-link-text-color;*/
+    text-transform: capitalize;
+    font-weight: 400;
+    font-weight: 15px; }
     .header-subheader-options li a:hover {
-      color: #031528; }
+      color: #fff;
+      text-decoration: underline; }
       .header-subheader-options li a:hover i {
         color: #031528; }
     .header-subheader-options li a:active {
@@ -10986,16 +11192,6 @@ input[type="number"].quantity-input, input.cart-item-summary-quantity-value[type
 .header-menu-search {
   float: right; }
 
-.imgcontainer {
-  height: 5px;
-  text-align: right;
-  margin: auto;
-  padding: 2px; }
-
-img.avatar {
-  width: 2%;
-  border-radius: 50%; }
-
 .header-menu-search-link {
   font-size: 1.2rem;
   background: none;
@@ -11011,7 +11207,7 @@ img.avatar {
   color: #031528; }
 
 .header-menu-search-icon {
-  font-size: 1.47rem; }
+  font-size: 15px; }
 
 .header-menu-searchmobile-link {
   margin-right: 0;
@@ -11022,25 +11218,27 @@ img.avatar {
       margin-right: 10px; } }
 
 .header-menu-level1 {
-  margin-left: -10px;
+  margin-left: 0;
   height: 50px;
-  max-width: 95%; }
+  max-width: 100%; }
 
 .header-menu-level1 > li {
   float: left; }
 
 .header-menu-level1-anchor, .header-menu-home-anchor,
 .header-menu-shop-anchor {
-  display: block;
   position: relative;
-  height: 50px;
   line-height: 50px;
   font-family: Rubik;
-  font-size: 16px;
-  padding: 0 10px;
+  font-size: 14px;
+  padding: 0 7px;
   margin-right: 5px;
-  color: #031528;
+  /*color: $sc-main-navigation-link-color;*/
+  color: #00426a;
   background-color: transparent;
+  /*font-weight: $sc-font-weight-semibold;*/
+  font-weight: 400;
+  text-transform: capitalize;
   letter-spacing: 0;
   border-style: solid;
   border-color: initial;
@@ -11054,7 +11252,8 @@ img.avatar {
     border-style: solid;
     border-color: initial;
     border-top-width: 0;
-    border-bottom-width: 0; }
+    border-bottom-width: 0;
+    text-decoration: underline; }
   .header-menu-level1-anchor:active, .header-menu-home-anchor:active,
   .header-menu-shop-anchor:active {
     color: #0f54f8;
@@ -11074,20 +11273,38 @@ img.avatar {
 .header-menu-level2 > li {
   float: left;
   width: 20%;
-  padding-right: 30px; }
+  height: 50px; }
+
+h3.menu-head, .testimonial .menu-head.testimonial-content-title {
+  color: #01426a;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-bottom: 10px;
+  text-transform: capitalize; }
+
+.view-all {
+  color: #01426a;
+  margin-bottom: 15px;
+  display: block;
+  font-weight: 600; }
+
+.view-all:hover {
+  text-decoration: underline; }
 
 .header-menu-level2-anchor, .header-menu-profile .header-menu-myaccount-anchor-level2, .header-profile-menu-myaccount-container li span.header-menu-myaccount-span-level2 {
   font-family: Rubik;
-  text-transform: uppercase;
+  text-transform: none;
   text-decoration: none;
   font-weight: 400;
-  color: #0f54f8;
-  padding-bottom: 5px;
+  color: #000000 !important;
+  padding-bottom: 0px;
   margin-bottom: 10px;
-  border-bottom: 1px solid #c8d6e3;
-  display: block; }
+  display: block;
+  font-size: 13px;
+  padding: 0;
+  line-height: 30px; }
   .header-menu-level2-anchor:hover, .header-menu-profile .header-menu-myaccount-anchor-level2:hover, .header-profile-menu-myaccount-container li span.header-menu-myaccount-span-level2:hover {
-    color: #031528; }
+    color: #000000; }
 
 .header-menu-level3-anchor, .header-menu-profile .header-menu-myaccount-anchor-level3 {
   display: block;
@@ -11101,18 +11318,21 @@ img.avatar {
 .header-menu-push-icon, .header-menu-pop-icon {
   display: none; }
 
+.header-menu-level2 > li a {
+  line-height: 1.2; }
+
 .header-menu-level-container, .header-profile-menu-myaccount-container {
   background-color: transparent;
   display: none;
   position: absolute;
-  left: 0;
+  left: -140px;
   width: 100%;
   min-height: 150px;
-  z-index: 1003; }
+  z-index: 1003;
+  top: 100%; }
   .header-menu-level-container > li, .header-profile-menu-myaccount-container > li {
     background-color: white;
-    padding: 25px 35px;
-    border: 1px solid #c8d6e3; }
+    padding: 25px; }
 
 .open .header-menu-level-container, .open .header-profile-menu-myaccount-container {
   display: block; }
@@ -11810,11 +12030,13 @@ a.header-mini-cart-buttons {
 	may use this code subject to the terms that govern your access and use.
 */
 .header-logo-wrapper {
-  float: left; }
+  width: auto !important;
+  width: 15%;
+  padding-left: 4%; }
 
 .header-logo {
   display: block;
-  width: 95px;
+  width: auto;
   margin-left: -10px;
   line-height: 72px; }
   @media (min-width: 768px) {
@@ -16901,10 +17123,12 @@ ul.recently-viewed-row-cell li {
   .cms-content aside .row-fluid .btn {
     display: none; }
 
-.container, .nav-search-content, .site-search-content, .shopping-layout-breadcrumb, .shopping-layout-notifications, .cart, .cart-detailed, .error-management-forbidden-error, .error-management-internal-error, .error-management-page-not-found, .facets-facet-browse, .footer-simplified-content, .footer-content, .header-message .global-views-message, .header-message .cookie-warning-banner-view, .header-message .product-line-stock-msg-not-available, .header-message .product-reviews-form-confirmation-message, .header-main-nav, .header-menu-secondary-nav, .header-menu-level-container > li, .header-profile-menu-myaccount-container > li, .home-cms, .home, .home-slider-container .home-slide-caption .home-slide-caption-content, .product-details-full, .product-reviews-form, .product-reviews-form-preview, .product-reviews-form-confirmation, .cms-landing-page, .store-locator-list-all-main, .store-locator-main, .store-locator-details, .store-locator-upgrade-container, .checkout-layout-breadcrumb, .sc-blog-post-default-layout-container, .sc-blog-home-default-layout, .sc-order-status, .sc-item-comparison-widget-container .sc-widget-header, .sc-item-comparison-widget-container .sc-widget-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .sc-item-comparison-widget-container .sc-widget-non-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .comparison-page-layout-container, .record-searcher-suggestion-wrapper {
+.container, .nav-search-content, .site-search-content, .shopping-layout-breadcrumb,
+.shopping-layout-notifications, .cart, .cart-detailed, .error-management-forbidden-error, .error-management-internal-error, .error-management-page-not-found, .facets-facet-browse, .footer-simplified-content, .footer-content, .header-message .global-views-message, .header-message .cookie-warning-banner-view, .header-message .product-line-stock-msg-not-available, .header-message .product-reviews-form-confirmation-message, .header-main-nav, .header-menu-secondary-nav, .header-menu-level-container > li, .header-profile-menu-myaccount-container > li, .home-cms, .home, .home-slider-container .home-slide-caption .home-slide-caption-content, .product-details-full, .product-reviews-form, .product-reviews-form-preview, .product-reviews-form-confirmation, .cms-landing-page, .store-locator-list-all-main, .store-locator-main, .store-locator-details, .store-locator-upgrade-container, .checkout-layout-breadcrumb, .sc-blog-post-default-layout-container, .sc-blog-home-default-layout, .sc-order-status, .sc-item-comparison-widget-container .sc-widget-header, .sc-item-comparison-widget-container .sc-widget-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .sc-item-comparison-widget-container .sc-widget-non-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .comparison-page-layout-container, .record-searcher-suggestion-wrapper {
   background-color: white; }
 
-.content-banner .container, .content-banner .nav-search-content, .content-banner .site-search-content, .content-banner .shopping-layout-breadcrumb, .content-banner .shopping-layout-notifications, .content-banner .cart, .content-banner .cart-detailed, .content-banner .error-management-forbidden-error, .content-banner .error-management-internal-error, .content-banner .error-management-page-not-found, .content-banner .facets-facet-browse, .content-banner .footer-simplified-content, .content-banner .footer-content, .content-banner .header-message .global-views-message, .header-message .content-banner .global-views-message, .content-banner .header-message .cookie-warning-banner-view, .header-message .content-banner .cookie-warning-banner-view, .content-banner .header-message .product-line-stock-msg-not-available, .header-message .content-banner .product-line-stock-msg-not-available, .content-banner .header-message .product-reviews-form-confirmation-message, .header-message .content-banner .product-reviews-form-confirmation-message, .content-banner .header-main-nav, .content-banner .header-menu-secondary-nav, .content-banner .header-menu-level-container > li, .content-banner .header-profile-menu-myaccount-container > li, .content-banner .home-cms, .content-banner .home, .content-banner .home-slider-container .home-slide-caption .home-slide-caption-content, .home-slider-container .home-slide-caption .content-banner .home-slide-caption-content, .content-banner .product-details-full, .content-banner .product-reviews-form, .content-banner .product-reviews-form-preview, .content-banner .product-reviews-form-confirmation, .content-banner .cms-landing-page, .content-banner .store-locator-list-all-main, .content-banner .store-locator-main, .content-banner .store-locator-details, .content-banner .store-locator-upgrade-container, .content-banner .checkout-layout-breadcrumb, .content-banner .sc-blog-post-default-layout-container, .content-banner .sc-blog-home-default-layout, .content-banner .sc-order-status, .content-banner .sc-item-comparison-widget-container .sc-widget-header, .sc-item-comparison-widget-container .content-banner .sc-widget-header, .content-banner .sc-item-comparison-widget-container .sc-widget-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .sc-item-comparison-widget-container .sc-widget-desktop .sc-widget-placeholders-container .content-banner .sc-comparison-selection-wrapper, .content-banner .sc-item-comparison-widget-container .sc-widget-non-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .sc-item-comparison-widget-container .sc-widget-non-desktop .sc-widget-placeholders-container .content-banner .sc-comparison-selection-wrapper, .content-banner .comparison-page-layout-container, .content-banner .record-searcher-suggestion-wrapper {
+.content-banner .container, .content-banner .nav-search-content, .content-banner .site-search-content, .content-banner .shopping-layout-breadcrumb,
+.content-banner .shopping-layout-notifications, .content-banner .cart, .content-banner .cart-detailed, .content-banner .error-management-forbidden-error, .content-banner .error-management-internal-error, .content-banner .error-management-page-not-found, .content-banner .facets-facet-browse, .content-banner .footer-simplified-content, .content-banner .footer-content, .content-banner .header-message .global-views-message, .header-message .content-banner .global-views-message, .content-banner .header-message .cookie-warning-banner-view, .header-message .content-banner .cookie-warning-banner-view, .content-banner .header-message .product-line-stock-msg-not-available, .header-message .content-banner .product-line-stock-msg-not-available, .content-banner .header-message .product-reviews-form-confirmation-message, .header-message .content-banner .product-reviews-form-confirmation-message, .content-banner .header-main-nav, .content-banner .header-menu-secondary-nav, .content-banner .header-menu-level-container > li, .content-banner .header-profile-menu-myaccount-container > li, .content-banner .home-cms, .content-banner .home, .content-banner .home-slider-container .home-slide-caption .home-slide-caption-content, .home-slider-container .home-slide-caption .content-banner .home-slide-caption-content, .content-banner .product-details-full, .content-banner .product-reviews-form, .content-banner .product-reviews-form-preview, .content-banner .product-reviews-form-confirmation, .content-banner .cms-landing-page, .content-banner .store-locator-list-all-main, .content-banner .store-locator-main, .content-banner .store-locator-details, .content-banner .store-locator-upgrade-container, .content-banner .checkout-layout-breadcrumb, .content-banner .sc-blog-post-default-layout-container, .content-banner .sc-blog-home-default-layout, .content-banner .sc-order-status, .content-banner .sc-item-comparison-widget-container .sc-widget-header, .sc-item-comparison-widget-container .content-banner .sc-widget-header, .content-banner .sc-item-comparison-widget-container .sc-widget-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .sc-item-comparison-widget-container .sc-widget-desktop .sc-widget-placeholders-container .content-banner .sc-comparison-selection-wrapper, .content-banner .sc-item-comparison-widget-container .sc-widget-non-desktop .sc-widget-placeholders-container .sc-comparison-selection-wrapper, .sc-item-comparison-widget-container .sc-widget-non-desktop .sc-widget-placeholders-container .content-banner .sc-comparison-selection-wrapper, .content-banner .comparison-page-layout-container, .content-banner .record-searcher-suggestion-wrapper {
   background-color: transparent; }
 
 a:hover,
@@ -16949,7 +17173,9 @@ button:active {
 .shopping-layout-breadcrumb,
 .checkout-layout-breadcrumb,
 .myaccount-layout-breadcrumb {
-  padding-top: 50px; }
+  padding-top: 50px;
+  width: 100%;
+  padding-left: 15% !important; }
 
 .error-management-forbidden-error,
 .error-management-internal-error,
@@ -16967,13 +17193,14 @@ button:active {
     .shopping-layout-header,
     .checkout-layout-header,
     .myaccount-layout-header {
-      margin-bottom: 25px; } }
+      box-shadow: 0px 5px 5px lightblue; } }
 
 @media (min-width: 768px) {
   .shopping-layout-header {
-    margin-bottom: 25px; } }
+    box-shadow: 0px 5px 5px lightblue; } }
 
-.checkout-layout-content .error-management-internal-error, .checkout-layout-content .error-management-forbidden-error {
+.checkout-layout-content .error-management-internal-error,
+.checkout-layout-content .error-management-forbidden-error {
   padding-right: 0px;
   padding-left: 0px;
   width: auto; }

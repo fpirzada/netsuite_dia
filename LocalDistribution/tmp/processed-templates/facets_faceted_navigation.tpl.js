@@ -5,9 +5,9 @@ define('facets_faceted_navigation.tpl', ['Handlebars','Handlebars.CompilerNameLo
 },"3":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {});
 
-  return "	<h3 class=\"facets-faceted-navigation-title\">"
-    + container.escapeExpression((compilerNameLookup(helpers,"translate")||(depth0 && compilerNameLookup(depth0,"translate"))||container.hooks.helperMissing).call(alias1,"Narrow By",{"name":"translate","hash":{},"data":data,"loc":{"start":{"line":13,"column":45},"end":{"line":13,"column":70}}}))
-    + "</h3>\r\n\r\n	<h4 class=\"facets-faceted-navigation-results\">\r\n"
+  return "	<!--- <h3 class=\"facets-faceted-navigation-title\">"
+    + container.escapeExpression((compilerNameLookup(helpers,"translate")||(depth0 && compilerNameLookup(depth0,"translate"))||container.hooks.helperMissing).call(alias1,"Narrow By",{"name":"translate","hash":{},"data":data,"loc":{"start":{"line":13,"column":51},"end":{"line":13,"column":76}}}))
+    + "</h3> --->\r\n\r\n	<h4 class=\"facets-faceted-navigation-results\">\r\n"
     + ((stack1 = compilerNameLookup(helpers,"if").call(alias1,(depth0 != null ? compilerNameLookup(depth0,"keywords") : depth0),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.program(9, data, 0),"data":data,"loc":{"start":{"line":16,"column":2},"end":{"line":28,"column":9}}})) != null ? stack1 : "")
     + "	</h4>\r\n\r\n"
     + ((stack1 = compilerNameLookup(helpers,"if").call(alias1,(depth0 != null ? compilerNameLookup(depth0,"hasAppliedFacets") : depth0),{"name":"if","hash":{},"fn":container.program(14, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":31,"column":1},"end":{"line":36,"column":8}}})) != null ? stack1 : "")
